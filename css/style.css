@@ -6,7 +6,6 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(269, 79%, 78%); 
   --first-color-alt: hsl(269, 79%, 78%);
   --title-color: hsl(355, 4%, 15%);
@@ -16,7 +15,6 @@
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
 
   --biggest-font-size: 1.5rem;
@@ -32,7 +30,6 @@
   --font-semi-bold: 600;
 
   /*========== Margenes Bottom ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-1: 1rem;
@@ -45,7 +42,6 @@
   --z-fixed: 100;
 }
 
-/* Responsive typography */
 @media screen and (min-width: 968px) {
   :root {
     --biggest-font-size: 2.5rem;
@@ -81,7 +77,6 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
   transition: 0.4s;
-  /*For animation dark mode*/
 }
 
 h1,
@@ -96,13 +91,19 @@ ul {
   list-style: none;
 }
 
-a {
+a{
   text-decoration: none;
+  color: var(--title-color);
 }
 
 a:visited{
   text-decoration: none;
   color: var(--title-color);
+}
+
+#link-email{
+  text-decoration: none;
+  color: var(--first-color);
 }
 
 img {
@@ -571,6 +572,7 @@ body.dark-theme {
 
 /*=============== HOME ===============*/
 .home__container {
+  margin-top: 5vh;
   padding-top: 1.5rem;
   row-gap: 1.5rem;
 }
@@ -945,7 +947,6 @@ body.dark-theme {
 }
 
 /*=============== BREAKPOINTS ===============*/
-/* For small devices */
 @media screen and (max-width: 320px) {
   .container {
     margin-left: var(--mb-1);
@@ -1094,7 +1095,6 @@ body.dark-theme {
   }
 }
 
-/* For large devices */
 @media screen and (min-width: 992px) {
   .container {
     margin-left: auto;
@@ -1102,6 +1102,7 @@ body.dark-theme {
   }
 
   #link-email{
+    text-decoration: none;
     color: var(--first-color);
   }
 
@@ -1109,6 +1110,11 @@ body.dark-theme {
     opacity: 50%;
     cursor: pointer;
     transition: ease-in-out 0.5s;
+  }
+
+  #link-email:visited{
+    text-decoration: none;
+    color: var(--first-color);
   }
 
   .home__container {
