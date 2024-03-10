@@ -4,11 +4,11 @@ import { GrAppsRounded } from 'react-icons/gr';
 import './Header.style.css';
 import { Link } from 'react-router-dom';
 
-export default function Header() {
-    const navRef = useRef();
+export function Header() {
+    const navRef = useRef<HTMLDivElement>(null);
 
 	const showNavbar = () => {
-		navRef.current.classList.toggle(
+		navRef.current?.classList.toggle(
 			'responsive_nav'
 		);
 	};
