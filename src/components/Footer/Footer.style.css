@@ -29,8 +29,3 @@ footer{
     color: var(--cor-secundaria);
     transition: ease-in-out 0.2s;
 }
-
-.imgs-segunda-apresentacao {
-    width: 10vw;
-    margin-bottom: 5vh;
-}
