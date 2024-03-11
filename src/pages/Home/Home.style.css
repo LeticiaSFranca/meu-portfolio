@@ -1,0 +1,21 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#texto-abertura {
+    max-width: 36vw;
+    padding: 0 2vw;
+    font-size: 18px;
+}
+
+#img-apresentacao {
+    width: 29vw;
+}
+
+h3{
+    color: var(--cor-primaria);
+    font-weight: bolder;
+}
