@@ -1,5 +1,10 @@
 import './Home.style.css';
 import imgApresentacao from '../../assets/img/imagem-apresentação.png';
+import { MdDevices } from "react-icons/md";
+import { FaUserDoctor } from "react-icons/fa6";
+import { IoMail } from "react-icons/io5";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export function Home() {
     return (
@@ -17,7 +22,32 @@ export function Home() {
             </section>
 
             <section id='segunda-apresentacao'>
+                <button className='botoes-areas'><a href="/desenvolvimento-web">
+                    <MdDevices className='icons-areas'/>
+                    <p>Desenvolvimento Web 
+                        <br /> e Design
+                    </p>
+                </a>
+                </button>
+                <button className='botoes-areas'><a href="/medicina-veterinaria">
+                    <FaUserDoctor className='icons-areas'/>
+                    <p>Medicina Veterinária</p>
+                    </a>
+                </button>
+                <button className='botoes-areas'><a href="/contato">
+                    <IoMail className='icons-areas'/>
+                    <p>Entrar em Contato</p>
+                    </a>
+                </button>
+            </section>
 
+            <section id='terceira-apresentacao'>
+                <p id='texto-como-encontrar'>Como me encontrar?</p>
+                <div id='div-como-encontrar'>
+                    <a href="https://www.instagram.com/leticia.s.franca/?hl=pt-br" target="_blank" rel="noopener noreferrer"><AiFillInstagram className='icones-como-encontrar'/></a>
+                    <a href="mailto:leticiasilvafranca17@gmail.com" target="_blank" rel="noopener noreferrer"><IoMail className='icones-como-encontrar'/></a>
+                    <a href="https://www.linkedin.com/in/leticiasfranca/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='icones-como-encontrar'/></a>
+                </div>
             </section>
         </>
     );

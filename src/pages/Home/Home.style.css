@@ -1,13 +1,15 @@
 #primeira-apresentacao {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
+    margin: 5vh 0;
 }
 
 #texto-abertura {
     max-width: 36vw;
-    padding: 0 2vw;
+    /* padding: 0 2vw; */
     font-size: 18px;
 }
 
@@ -24,4 +26,81 @@
 #meu-nome {
     color: var(--cor-primaria);
     font-weight: bolder;
+}
+
+/* Separações */
+#segunda-apresentacao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: var(--cor-secundaria);
+    margin: 5vh 0;
+}
+
+.botoes-areas {
+    width: 20vw;
+    height: 55vh;
+    margin: 5vh 0;
+
+    background-color: var(--cor-branca);
+    border-radius: 20px;
+    font-size: 20px;
+    color: var(--cor-secundaria);
+    border: 0;
+}
+
+.botoes-areas > a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.botoes-areas>a:hover {
+    color: var(--cor-primaria);
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.icons-areas {
+    font-size: 90px;
+    margin-bottom: 5vh;
+}
+
+/* Separações */
+#terceira-apresentacao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5vh 0;
+}
+
+#texto-como-encontrar {
+    text-align: center;
+    font-size: 40px;
+    color: var(--cor-primaria);
+    font-weight: bolder;
+    margin-bottom: 6vh;
+}
+
+#div-como-encontrar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 5vh 0;
+    color: var(--cor-primaria);
+    font-size: 60px;
+}
+
+#div-como-encontrar>a{
+    color: var(--cor-primaria);
+}
+
+.icones-como-encontrar:hover {
+    color: var(--cor-secundaria);
+    transition: ease-in-out 0.5s;
 }
