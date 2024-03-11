@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { GrAppsRounded } from 'react-icons/gr';
 import './Header.style.css';
+import logo from '../../assets/icons/logo-principal.png';
 import { Link } from 'react-router-dom';
 
 export function Header() {
@@ -16,11 +17,11 @@ export function Header() {
     return (
         <header>
 			<Link to="/" className="logo">
-				<img src="/white-logo.png" alt="Logo" />
+				<Link to="/" onClick={showNavbar}><img src={logo} alt="Logo" /></Link>
 			</Link>
 			<nav ref={navRef}>
-				<Link to="/" onClick={showNavbar}>Home</Link>
-				<Link to="/produtos" onClick={showNavbar}>Produtos</Link>
+				<Link to="/desenvolvimento-web" onClick={showNavbar}>Desenvolvimento Web</Link>
+				<Link to="/medicina-veterinaria" onClick={showNavbar}>Medicina Veterinária</Link>
 				<Link to="/contato" onClick={showNavbar}>Contato</Link>
 				<button
 					className="nav_btn nav_close_btn"

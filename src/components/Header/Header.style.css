@@ -4,8 +4,8 @@ header{
 	justify-content: space-evenly;
 	height: 80px;
 	padding: 0 2rem;
-	background-color: var(--main-color);
-	color: var(--white-color);
+	background-color: var(--cor-branca);
+	color: var(--main-color);
 }
 
 header .logo{

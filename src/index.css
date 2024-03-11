@@ -1,9 +1,18 @@
 :root{
-    --main-color: #ff0;
+    --main-color: #D92B3A;
+    --cor-secundaria: #F2A7AD;
+    --cor-branca: #fff;
+    --cor-preto: #000;
+    --separar-paginas: #F2C4C8;
+    --vermelho-escuro: #BF0404;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
