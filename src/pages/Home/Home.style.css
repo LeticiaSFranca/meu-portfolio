@@ -1,4 +1,4 @@
-section {
+#primeira-apresentacao {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,13 @@ section {
     width: 29vw;
 }
 
-h3{
+#titulo-apresentacao {
+    color: var(--cor-primaria);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#meu-nome {
     color: var(--cor-primaria);
     font-weight: bolder;
 }

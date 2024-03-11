@@ -1,9 +1,9 @@
 :root{
-    --cor-primaria: #D92B3A;
-    --cor-secundaria: #F2A7AD;
+    --cor-primaria: #BA704F;
+    --cor-secundaria: #6C3428;
     --cor-branca: #fff;
     --cor-preto: #000;
-    --separar-paginas: #F2C4C8;
+    --separar-paginas: #DBAA9F;
     --vermelho-escuro: #BF0404;
 }
 
@@ -15,4 +15,17 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: var(--cor-primaria);
+    width: 10px;
 }
