@@ -1,8 +1,36 @@
 footer{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
     background-color: var(--cor-primaria);
-    padding: 5vh 0;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
     color: var(--cor-branca);
+}
+
+#div-como-encontrar {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2vh;
+    flex-direction: row;
+    font-size: 25px;
+}
+
+#div-como-encontrar>a{
+    color: var(--cor-branca);
+}
+
+.icones-como-encontrar:hover {
+    color: var(--cor-secundaria);
+    transition: ease-in-out 0.2s;
+}
+
+.imgs-segunda-apresentacao {
+    width: 10vw;
+    margin-bottom: 5vh;
 }
