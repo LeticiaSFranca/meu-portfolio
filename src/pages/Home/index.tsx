@@ -7,8 +7,8 @@ export function Home() {
             <section id='primeira-apresentacao'>
                 <img src={imgApresentacao} alt="img-apresentação" id='img-apresentacao' />
                 <div id='texto-abertura'>
-                    <h3>Oie! Me chamo Letícia, muito prazer!</h3>
-                    <p>Seja bem-vindo(a) ao meu portfólio! No cabeçalho tem duas opções de áreas que atuo,
+                    <h3>Bem-vindo(a)!</h3>
+                    <p>Oie! Me chamo <b>Letícia França</b>, muito prazer! Navegue pelo meu portfólio: no cabeçalho tem duas opções de áreas que atuo,
                         você pode escolher qual deseja visitar! E caso queira entrar em contato comigo, pode acessar 
                         também pelo cabeçalho!
                     </p>
@@ -16,7 +16,7 @@ export function Home() {
             </section>
 
             <section id='segunda-apresentacao'>
-                
+
             </section>
         </>
     );
