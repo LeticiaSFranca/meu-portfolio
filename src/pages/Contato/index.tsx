@@ -13,7 +13,7 @@ export function Contato() {
                         ut deserunt veniam blanditiis. Iure exercitationem blanditiis 
                         numquam iusto nisi necessitatibus veritatis voluptatem illum?</p>
                 </div>
-        </section>
+            </section>
         </>
     );
 }
