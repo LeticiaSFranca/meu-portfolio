@@ -69,6 +69,7 @@ header div, nav {
 		gap: 1.5rem;
 		background-color: var(--main-color);
 		transition: 1s;
+		z-index: 1000;
 	}
 
 	header .responsive_nav{
