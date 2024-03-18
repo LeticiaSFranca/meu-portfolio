@@ -1,6 +1,13 @@
+import React from 'react';
 import './CardProjetos.style.css';
 
-export default function CardProjetos({ imagemProjetos, nomeProjetos, descricaoProjetos}) {
+interface CardProjetosProps {
+    imagemProjetos: string;
+    nomeProjetos: string;
+    descricaoProjetos: string;
+}
+
+const CardProjetos: React.FC<CardProjetosProps> = ({ imagemProjetos, nomeProjetos, descricaoProjetos }) => {
     return (
         <>
             <div className='card-projetos'>
@@ -14,3 +21,5 @@ export default function CardProjetos({ imagemProjetos, nomeProjetos, descricaoPr
         </>
     );
 }
+
+export default CardProjetos;
