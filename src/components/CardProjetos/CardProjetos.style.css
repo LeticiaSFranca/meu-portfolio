@@ -1,26 +1,27 @@
 .card-projetos{
     width: 20vw;
-    height: 70vh;
-    margin: 6vh 0;
+    height: 60vh;
+    margin: 5vh 0;
+    padding: 0 0.1vw;
     color: var(--main-color);
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: var(--white-color);
-    border-radius: 20px;
+    background-color: #fff;
+    border-radius: 15px;
     box-shadow: 2px 2px 6px #0f0f0f34;
 }
 
 .card-projetos div{
-    background-color: var(--white-color);
+    background-color: var(--cor-branca);
 }
 
-.card-projetos h2 {
-    color: var(--main-color);
+.card-projetos h3 {
+    color: var(--cor-primaria);
     padding-bottom: 2vh;
-    text-shadow: 3px 3px 3px var(--shadow-color);
+    font-weight: bolder;
 }
 
 .card-projetos p{
@@ -31,10 +32,9 @@
 }
 
 .card-projetos img{
-    width: 250px;
-    height: 250px;
+    width: 15vw;
     object-fit: cover;
-    padding-bottom: 10px;
+    padding-bottom: 2vh;
 }
 
 .card-projetos hr{

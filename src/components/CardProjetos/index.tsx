@@ -13,7 +13,7 @@ const CardProjetos: React.FC<CardProjetosProps> = ({ imagemProjetos, nomeProjeto
             <div className='card-projetos'>
                 <div>
                     <img src={imagemProjetos} alt={nomeProjetos} />
-                    <h2>{nomeProjetos}</h2>
+                    <h3>{nomeProjetos}</h3>
                     <hr />
                     <p>{descricaoProjetos}</p>
                 </div>

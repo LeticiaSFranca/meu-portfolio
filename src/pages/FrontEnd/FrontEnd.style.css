@@ -5,6 +5,13 @@
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 5vh 0;
+
+    h2 {
+        color: var(--cor-branca);
+        font-weight: bolder;
+        font-size: 30px;
+    }
 }
 
 #terceira-apresentacao {
@@ -14,13 +21,19 @@
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
+
+    h2 {
+        color: var(--cor-secundaria);
+        font-weight: bolder;
+        font-size: 30px;
+    }
 }
 
 .todos-os-cards{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
 }
