@@ -46,7 +46,7 @@ export function Contato() {
 
                 <label>
                     <span><i className="icon icon-email"></i><FaPhone /> Telefone</span>
-                    <input type="tel" name="celular" required placeholder="(31)91234-5678" id="telefone" maxLength="14" />
+                    <input type="tel" name="celular" required placeholder="(31)91234-5678" id="telefone" />
                 </label>
 
                 <label>
@@ -56,7 +56,7 @@ export function Contato() {
 
                 <label>
                     <span><i className="icon icon-comment" id="caixaMensagem"></i><AiFillMessage /> Mensagem</span>
-                    <textarea name="mensagem" rows="3" required placeholder="Digite aqui sua mensagem." />
+                    <textarea name="mensagem" required placeholder="Digite aqui sua mensagem." />
                 </label>
 
                 <input type="hidden" name="acao" value="enviar" />
