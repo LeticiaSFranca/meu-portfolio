@@ -35,7 +35,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-branca);
     margin: 5vh 0;
 }
 
@@ -45,19 +45,27 @@
     margin: 5vh 0;
 
     background-color: var(--cor-branca);
+    box-shadow: 2px 2px 10px var(--cor-primaria);
     border-radius: 20px;
     font-size: 20px;
     color: var(--cor-secundaria);
     border: 0;
 }
 
-.botoes-areas > a {
+.botoes-areas a {
     color: var(--cor-secundaria);
     text-decoration: none;
 }
 
-.botoes-areas>a:hover {
-    color: var(--cor-primaria);
+.botoes-areas:hover {
+    background-color: var(--cor-primaria);
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    color: var(--cor-branca);
+}
+
+.botoes-areas a:hover {
+    color: var(--cor-branca);
     cursor: pointer;
     transition: ease-in-out 0.5s;
 }

@@ -28,7 +28,7 @@ export function Home() {
                 </button>
                 <button className='botoes-areas'><a href="/medicina-veterinaria">
                     <img src={imgApresentacao2} alt="Imagem 1" className='imgs-segunda-apresentacao'/>
-                    <p>Medicina <br />Veterinária</p>
+                    <p><b>Medicina <br />Veterinária</b></p>
                     </a>
                 </button>
                 <button className='botoes-areas'><a href="/contato">
