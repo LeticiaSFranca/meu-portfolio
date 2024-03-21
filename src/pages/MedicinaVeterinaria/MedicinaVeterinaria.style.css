@@ -1,0 +1,113 @@
+#segunda-apresentacao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5vh 0;
+
+    h2 {
+        color: var(--cor-branca);
+        font-weight: bolder;
+        font-size: 30px;
+    }
+}
+
+#terceira-apresentacao {
+    width: 100%;
+    padding: 5vh 0;
+    background-color: var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    h2 {
+        color: var(--cor-branca);
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    img {
+        width: 15vw;
+        border-radius: 10px;
+    }
+}
+
+#quarta-apresentacao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    padding: 10vh 0;
+
+    h2 {
+        color: var(--cor-branca);
+        font-weight: bolder;
+        font-size: 30px;
+    }
+}
+
+#github-card {
+    width: 40%;
+    background-color: var(--cor-branca);
+    padding: 3vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+#icone-github-card {
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-primaria);
+}
+
+#texto-github-card {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    text-align: left;
+    max-width: 20vw;
+
+    h3 {
+        font-weight: bolder;
+        color: var(--cor-primaria);
+    }
+
+    p {
+        margin-top: 0.5vh;
+        font-size: 15px;
+    }
+
+    a {
+        margin-top: 2vh;
+        color: var(--cor-primaria);
+        text-decoration: none;
+
+        &:hover{
+            opacity: 70%;
+            cursor: pointer;
+        }
+    }
+}
+
+.todos-os-cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
