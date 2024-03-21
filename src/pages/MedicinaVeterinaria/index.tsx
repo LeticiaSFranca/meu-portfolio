@@ -22,7 +22,7 @@ export function MedicinaVeterinaria() {
                         e criados no campo🌱💖. Sua conexão com a terra e os animais despertou 
                         em mim um profundo desejo de proteger e cuidar das criaturas que 
                         compartilham nosso mundo🥰💖. Inspirada pelo legado da minha família, 
-                        estou comprometida em contribuir para o bem-estar dos animais💖. </p>
+                        estou comprometida em contribuir para o bem-estar dos animais💖.</p>
                 </div>
             </section>
 

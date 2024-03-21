@@ -43,52 +43,52 @@ export function FrontEnd() {
                 <CardProjetos
                 imagemProjetos={Design1}
                 nomeProjetos='Calendários'
-                descricaoProjetos='Do jeitinho que você quiser!' />
+                descricaoProjetos='' />
                 
                 <CardProjetos
                 imagemProjetos={Design2}
                 nomeProjetos='Capas de Cadernos'
-                descricaoProjetos='Do jeitinho que você quiser!' />
+                descricaoProjetos='' />
 
                 <CardProjetos
                 imagemProjetos={Design3}
                 nomeProjetos='Criação de Vídeos'
-                descricaoProjetos='Do jeitinho que você quiser!' />
+                descricaoProjetos='' />
 
                 <CardProjetos
                 imagemProjetos={Design4}
                 nomeProjetos='Criação de Imagens'
-                descricaoProjetos='Do jeitinho que você quiser!' />
+                descricaoProjetos='' />
 
                 <CardProjetos
                 imagemProjetos={Design5}
                 nomeProjetos='Adesivos'
-                descricaoProjetos='Do jeitinho que você quiser!' />
+                descricaoProjetos='' />
 
                 <CardProjetos
                 imagemProjetos={Design6}
                 nomeProjetos='Cartões de Visita'
-                descricaoProjetos='Do jeitinho que você quiser!' />
+                descricaoProjetos='' />
 
                 <CardProjetos
                 imagemProjetos={Design7}
                 nomeProjetos='Crachás'
-                descricaoProjetos='Do jeitinho que você quiser!' />
+                descricaoProjetos='' />
 
                 <CardProjetos
                 imagemProjetos={Design8}
                 nomeProjetos='Logomarcas'
-                descricaoProjetos='Do jeitinho que você quiser!' />
+                descricaoProjetos='' />
 
                 <CardProjetos
                 imagemProjetos={Design9}
                 nomeProjetos='Brasão'
-                descricaoProjetos='Do jeitinho que você quiser!' />
+                descricaoProjetos='' />
 
                 <CardProjetos
                 imagemProjetos={Design10}
                 nomeProjetos='Meu YouTube'
-                descricaoProjetos='Aqui ficam guardados todos os meus projetos em vídeos!' />
+                descricaoProjetos='' />
                 </div>
             </section>
 
@@ -99,27 +99,27 @@ export function FrontEnd() {
                 <CardProjetos
                 imagemProjetos={Dev1}
                 nomeProjetos='CraftAPI'
-                descricaoProjetos='Proposta de projeto de estudos, produzir uma API e usá-la com o tema que quiséssemos!' />
+                descricaoProjetos='' />
                 
                 <CardProjetos
                 imagemProjetos={Dev2}
                 nomeProjetos='To-Do List'
-                descricaoProjetos='Proposta de projeto de estudos, produzir uma lista de tarefas. Onde vc seleciona os pendentes e os concluídos.' />
+                descricaoProjetos='' />
 
                 <CardProjetos
                 imagemProjetos={Dev3}
                 nomeProjetos='WE Equipamentos'
-                descricaoProjetos='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
+                descricaoProjetos='' />
 
                 <CardProjetos
                 imagemProjetos={Dev4}
                 nomeProjetos='QuickFood'
-                descricaoProjetos='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
+                descricaoProjetos='' />
 
                 <CardProjetos
                 imagemProjetos={Dev5}
                 nomeProjetos='Meu GitHub'
-                descricaoProjetos='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
+                descricaoProjetos='' />
                 </div>
             </section>
 

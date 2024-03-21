@@ -67,7 +67,7 @@ header div, nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: var(--main-color);
+		background-color: var(--cor-primaria);
 		transition: 1s;
 		z-index: 1000;
 	}
