@@ -111,3 +111,17 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.todos-os-registros {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    img {
+        width: 30vw;
+        margin-top: 7vh;
+    }
+}
