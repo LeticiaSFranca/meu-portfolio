@@ -21,7 +21,7 @@ footer{
     font-size: 25px;
 }
 
-#div-como-encontrar>a{
+#div-como-encontrar a{
     color: var(--cor-branca);
 }
 

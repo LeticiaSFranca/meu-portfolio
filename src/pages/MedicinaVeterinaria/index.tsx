@@ -1,4 +1,5 @@
 import './MedicinaVeterinaria.style.css';
+
 import imgApresentacao from '../../assets/img/imagem-apresentação-2.png';
 import Imagem from '../../assets/img/em-andamento.png';
 import CardProjetos from '../../components/CardProjetos';
@@ -15,10 +16,13 @@ export function MedicinaVeterinaria() {
                 <img src={imgApresentacao} alt="img-apresentação" id='img-apresentacao' />
                 <div id='texto-abertura'>
                     <h3 id='titulo-apresentacao'>Medicina Veterinária</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Magni assumenda quibusdam sequi beatae ipsum similique ex 
-                        ut deserunt veniam blanditiis. Iure exercitationem blanditiis 
-                        numquam iusto nisi necessitatibus veritatis voluptatem illum?</p>
+                    <p>Oie! Sou uma estudante de Medicina Veterinária apaixonada 
+                        por animais e pela natureza, sendo influenciada desde bebê 
+                        pelos ensinamentos e pelo amor dos meus avós, que foram nascidos 
+                        e criados no campo🌱💖. Sua conexão com a terra e os animais despertou 
+                        em mim um profundo desejo de proteger e cuidar das criaturas que 
+                        compartilham nosso mundo🥰💖. Inspirada pelo legado da minha família, 
+                        estou comprometida em contribuir para o bem-estar dos animais💖. </p>
                 </div>
             </section>
 
@@ -54,13 +58,13 @@ export function MedicinaVeterinaria() {
             </section>
 
             <section id='terceira-apresentacao'>
-                <h2>Registros de alguém que ama animais💖!</h2>
+                <h2>Medicina Veterinária com amor💖!</h2>
 
                 <div className='todos-os-registros'>
-                    <img src={Polaroid1} alt="Polaroid-1" />
-                    <img src={Polaroid2} alt="Polaroid-2" />
-                    <img src={Polaroid3} alt="Polaroid-3" />
-                    <img src={Polaroid4} alt="Polaroid-4" />
+                    <img src={Polaroid1} alt="Polaroid-1" className='img-polaroids'/>
+                    <img src={Polaroid2} alt="Polaroid-2" className='img-polaroids'/>
+                    <img src={Polaroid3} alt="Polaroid-3" className='img-polaroids'/>
+                    <img src={Polaroid4} alt="Polaroid-4" className='img-polaroids'/>
                 </div>
             </section>
 

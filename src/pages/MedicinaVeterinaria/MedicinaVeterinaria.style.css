@@ -30,9 +30,9 @@
         font-size: 30px;
     }
 
-    img {
-        width: 15vw;
-        border-radius: 10px;
+    .img-polaroids {
+        margin-top: 7vh;
+        width: 20vw;
     }
 }
 
@@ -114,14 +114,10 @@
 
 .todos-os-registros {
     width: 100%;
+    padding: 2vh 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
-    
-    img {
-        width: 30vw;
-        margin-top: 7vh;
-    }
 }
