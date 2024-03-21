@@ -1,7 +1,7 @@
 import './FrontEnd.style.css';
 import imgApresentacao from '../../assets/img/imagem-apresentação.png';
 import CardProjetos from '../../components/CardProjetos';
-import Imagem from '../../assets/icons/logo-cavalo.png'
+import { FaGithub } from "react-icons/fa6";
 
 import Design1 from '../../assets/img/Projetos/Design/Design-1.png';
 import Design2 from '../../assets/img/Projetos/Design/Design-2.png';
@@ -27,10 +27,12 @@ export function FrontEnd() {
                 <img src={imgApresentacao} alt="img-apresentação" id='img-apresentacao' />
                 <div id='texto-abertura'>
                     <h3 id='titulo-apresentacao'>Desenvolvimento Web e Design</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Magni assumenda quibusdam sequi beatae ipsum similique ex 
-                        ut deserunt veniam blanditiis. Iure exercitationem blanditiis 
-                        numquam iusto nisi necessitatibus veritatis voluptatem illum?</p>
+                    <p>Oie! Sou designer web e desenvolvedora web apaixonada por criar experiências
+                        digitais cativantes💖. Meu trabalho é impulsionado pela emoção positiva que ele
+                        pode gerar, tanto para os usuários quanto para a marca💖. Com habilidades técnicas
+                        sólidas e uma mente criativa, estou sempre em busca de desafios que me permitam
+                        inovar e superar expectativas🤩. Adoro colaborar em projetos que valorizem
+                        a excelência e o impacto positivo💖.</p>
                 </div>
             </section>
 
@@ -118,6 +120,20 @@ export function FrontEnd() {
                 imagemProjetos={Dev5}
                 nomeProjetos='Meu GitHub'
                 descricaoProjetos='Lorem ipsum, dolor sit amet consectetur adipisicing elit.' />
+                </div>
+            </section>
+
+            <section id='quarta-apresentacao'>
+                <div id='github-card'>
+                    <div id='icone-github-card'><FaGithub /></div>
+                    
+                    <div id='texto-github-card'>
+                        <h3>Acesse Meu GitHub!</h3>
+                        <p>Oie! Lá no meu GitHub, possui todos os meus projetos feitos
+                            até hoje, venha ver!
+                        </p>
+                        <a href="https://github.com/LeticiaSFranca" target="_blank" rel="noopener noreferrer">Acessar</a>
+                    </div>
                 </div>
             </section>
         </>
