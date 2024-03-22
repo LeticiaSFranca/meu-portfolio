@@ -11,10 +11,9 @@ export function Home() {
                 <img src={imgApresentacao} alt="img-apresentação" id='img-apresentacao' />
                 <div id='texto-abertura'>
                     <h3 id='titulo-apresentacao'>Bem-vindo(a)!</h3>
-                    <p>Oie! Me chamo <b id='meu-nome'>Letícia França</b>, muito prazer! <br /><br />
-                        Navegue pelo meu portfólio: no cabeçalho tem duas opções de áreas que atuo,
-                        você pode escolher qual deseja visitar🤎! E caso queira entrar em contato comigo, pode acessar 
-                        também pelo cabeçalho🤎!
+                    <p>Oie! Me chamo <b id='meu-nome'>Letícia França</b>, muito prazer🤎! <br /><br />
+                    Convido você a navegar pelo meu portfólio, aqui estão reunidos diversos dos meus projetos,
+                    cursos e outras experiências🌟! Espero que encontrem inspirações e motivações para suas aventuras🤎!
                     </p>
                 </div>
             </section>
