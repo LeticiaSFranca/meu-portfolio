@@ -33,27 +33,32 @@ export function MedicinaVeterinaria() {
                 <CardProjetos
                 imagemProjetos={Imagem}
                 nomeProjetos='Em Breve'
-                descricaoProjetos='...' />
+                linkProjetos=''
+                nomeBotao='' />
                 
                 <CardProjetos
                 imagemProjetos={Imagem}
                 nomeProjetos='Em Breve'
-                descricaoProjetos='...' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Imagem}
                 nomeProjetos='Em Breve'
-                descricaoProjetos='...' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Imagem}
                 nomeProjetos='Em Breve'
-                descricaoProjetos='...' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Imagem}
                 nomeProjetos='Em Breve'
-                descricaoProjetos='...' />
+                linkProjetos=''
+                nomeBotao='' />
                 </div>
             </section>
 
@@ -75,27 +80,32 @@ export function MedicinaVeterinaria() {
                 <CardProjetos
                 imagemProjetos={Imagem}
                 nomeProjetos='Em Breve'
-                descricaoProjetos='...' />
+                linkProjetos=''
+                nomeBotao='' />
                 
                 <CardProjetos
                 imagemProjetos={Imagem}
                 nomeProjetos='Em Breve'
-                descricaoProjetos='...' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Imagem}
                 nomeProjetos='Em Breve'
-                descricaoProjetos='...' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Imagem}
                 nomeProjetos='Em Breve'
-                descricaoProjetos='...' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Imagem}
                 nomeProjetos='Em Breve'
-                descricaoProjetos='...' />
+                linkProjetos=''
+                nomeBotao='' />
                 </div>
             </section>
         </>
