@@ -1,4 +1,5 @@
 import './Home.style.css';
+import { Link } from 'react-router-dom';
 import imgApresentacao from '../../assets/img/imagem-apresentação.png';
 import imgApresentacao2 from '../../assets/img/imagem-apresentação-2.png';
 import imgApresentacao3 from '../../assets/img/imagem-apresentação-3.png';
@@ -19,23 +20,21 @@ export function Home() {
             </section>
 
             <section id='segunda-apresentacao'>
-                <button className='botoes-areas'><a href="/desenvolvimento-web">
+                <Link to='/desenvolvimento-web' className='botoes-areas'>
                     <img src={imgApresentacao} alt="Imagem 1" className='imgs-segunda-apresentacao'/>
-                    <p>Desenvolvimento Web 
-                        <br /> e Design
-                    </p>
-                </a>
-                </button>
-                <button className='botoes-areas'><a href="/medicina-veterinaria">
+                        <p>Desenvolvimento Web<br /> e Design
+                        </p>
+                </Link>
+
+                <Link to='/medicina-veterinaria' className='botoes-areas'>
                     <img src={imgApresentacao2} alt="Imagem 1" className='imgs-segunda-apresentacao'/>
                     <p><b>Medicina <br />Veterinária</b></p>
-                    </a>
-                </button>
-                <button className='botoes-areas'><a href="/contato">
+                </Link>
+
+                <Link to='contato' className='botoes-areas'>
                     <img src={imgApresentacao3} alt="Imagem 1" className='imgs-segunda-apresentacao'/>
                     <p>Entrar em <br />Contato</p>
-                    </a>
-                </button>
+                </Link>
             </section>
         </>
     );
