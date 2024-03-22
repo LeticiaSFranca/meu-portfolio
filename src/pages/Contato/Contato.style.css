@@ -2,7 +2,7 @@
 #div-icones-contatos {
     width: 100%;
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: start;
     padding-top: 2vh;
     flex-direction: row;
@@ -17,7 +17,6 @@
 .icones-contatos {
     color: var(--cor-primaria);
     margin-right: 3vw;
-    margin-top: 1vh;
 }
 
 .icones-contatos:hover {
