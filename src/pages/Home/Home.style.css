@@ -82,6 +82,11 @@
     margin-bottom: 5vh;
 }
 
+#texto-sobre-mim {
+    padding: 5vh 23vw;
+    font-size: 16px;
+}
+
 @media (max-width: 1080px) {
     #primeira-apresentacao {
         width: 100%;
@@ -121,5 +126,9 @@
     .imgs-segunda-apresentacao {
         width: 60vw;
         margin-bottom: 2vh;
+    }
+
+    #texto-sobre-mim {
+        padding: 3vh 8vw;
     }
 }

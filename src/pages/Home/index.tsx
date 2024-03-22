@@ -35,6 +35,21 @@ export function Home() {
                     <p>Entrar em <br />Contato</p>
                 </Link>
             </section>
+
+            <section id='terceira-apresentacao'>
+                <h2>Curiosidades Sobre Mim</h2>
+                <p id='texto-sobre-mim'>
+                🐴🃏 Amo cavalos, amo roça, amo jogar truco e amo ouvir moda de viola, se juntar todos, melhor ainda! <br />
+                🎬📸 Amo criar e registrar coisas, então aprendi a montar vídeos com as fotos que tiro <br />
+                🐶🌳 Amo passar um tempo na natureza com os animais <br />
+                🏐🚲 Amo passar um tempo com meus amigos e amo praticar esportes (principalmente andar a cavalo, jogar vôlei e andar de bike) <br /> 
+                📚🎶 Amo ler e ouvir músicas <br /><br />
+
+                ➡ E com o Ensino Médio no Cotemig integrado com o técnico em informática, peguei também grande interesse e gosto na área de programação, principalmente mais focado em criação visual💻💜! <br />
+                ➡ Sou muito curiosa, adoro sempre estar aprendendo algo e também sou muito esforçada em todas as áreas da minha vida🏆 <br />
+                ➡ Tenho 3 pets que amo muito, 2 cachorrinhas super fofas e 1 cavalo muito esperto💖 <br />
+                </p>
+            </section>
         </>
     );
 }
