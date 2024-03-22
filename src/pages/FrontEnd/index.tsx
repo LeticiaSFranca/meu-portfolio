@@ -43,52 +43,62 @@ export function FrontEnd() {
                 <CardProjetos
                 imagemProjetos={Design1}
                 nomeProjetos='Calendários'
-                descricaoProjetos='' />
+                linkProjetos=''
+                nomeBotao='' />
                 
                 <CardProjetos
                 imagemProjetos={Design2}
                 nomeProjetos='Capas de Cadernos'
-                descricaoProjetos='' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Design3}
                 nomeProjetos='Criação de Vídeos'
-                descricaoProjetos='' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Design4}
                 nomeProjetos='Criação de Imagens'
-                descricaoProjetos='' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Design5}
                 nomeProjetos='Adesivos'
-                descricaoProjetos='' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Design6}
                 nomeProjetos='Cartões de Visita'
-                descricaoProjetos='' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Design7}
                 nomeProjetos='Crachás'
-                descricaoProjetos='' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Design8}
                 nomeProjetos='Logomarcas'
-                descricaoProjetos='' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Design9}
                 nomeProjetos='Brasão'
-                descricaoProjetos='' />
+                linkProjetos=''
+                nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Design10}
                 nomeProjetos='Meu YouTube'
-                descricaoProjetos='' />
+                linkProjetos=''
+                nomeBotao='' />
                 </div>
             </section>
 
@@ -99,27 +109,32 @@ export function FrontEnd() {
                 <CardProjetos
                 imagemProjetos={Dev1}
                 nomeProjetos='CraftAPI'
-                descricaoProjetos='' />
+                linkProjetos='https://craft-api.vercel.app'
+                nomeBotao='> Acessar <' />
                 
                 <CardProjetos
                 imagemProjetos={Dev2}
                 nomeProjetos='To-Do List'
-                descricaoProjetos='' />
+                linkProjetos='https://to-do-list-framework.vercel.app/'
+                nomeBotao='> Acessar <' />
 
                 <CardProjetos
                 imagemProjetos={Dev3}
                 nomeProjetos='WE Equipamentos'
-                descricaoProjetos='' />
+                linkProjetos='https://weequipamentos.com.br'
+                nomeBotao='> Acessar <' />
 
                 <CardProjetos
                 imagemProjetos={Dev4}
                 nomeProjetos='QuickFood'
-                descricaoProjetos='' />
+                linkProjetos='https://qftech.com.br'
+                nomeBotao='> Acessar <' />
 
                 <CardProjetos
                 imagemProjetos={Dev5}
                 nomeProjetos='Meu GitHub'
-                descricaoProjetos='' />
+                linkProjetos='https://github.com/LeticiaSFranca'
+                nomeBotao='> Acessar <' />
                 </div>
             </section>
 

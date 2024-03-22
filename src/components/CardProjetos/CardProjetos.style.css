@@ -24,11 +24,20 @@
     font-weight: bolder;
 }
 
-.card-projetos p{
-    font-size: 13px;
+.card-projetos a{
+    font-size: 17px;
     width: 100%;
-    color: var(--main-color);
-    padding: 2vh 1.5vw;
+    color: var(--separar-paginas);
+    text-decoration: none;
+    padding: 1vh 3vw;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+.card-projetos a:hover {
+    opacity: 90%;
+    cursor: pointer;
+    transition: ease 0.2s;
 }
 
 .card-projetos img{
@@ -39,7 +48,8 @@
 
 .card-projetos hr{
     color: var(--cor-branca);
-    margin: 0.1vh 5vw;
+    margin: 0 5vw;
+    margin-bottom: 3vh;
     opacity: .4;
 }
 
@@ -58,13 +68,14 @@
         width: 20vw;
     }
 
-    h2 {
-        padding: 2vh 3vw;
+    .card-projetos hr{
+        margin-left: 11vw;
+        margin-right: 11vw;
+        margin-top: -0.5vh;
+        margin-bottom: 1vh;
     }
 
-    .card-projetos p{
-        font-size: 14px;
-        width: 100%;
+    h2 {
         padding: 2vh 3vw;
     }
 }
