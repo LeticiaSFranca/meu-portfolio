@@ -3,8 +3,13 @@ import { Link } from 'react-router-dom';
 import imgApresentacao from '../../assets/img/imagem-apresentação.png';
 import imgApresentacao2 from '../../assets/img/imagem-apresentação-2.png';
 import imgApresentacao3 from '../../assets/img/imagem-apresentação-3.png';
+import { useEffect } from 'react';
 
 export function Home() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <section id='primeira-apresentacao'>

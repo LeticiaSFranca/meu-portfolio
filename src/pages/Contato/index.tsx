@@ -10,8 +10,13 @@ import { IoMail } from "react-icons/io5";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { useEffect } from 'react';
 
 export function Contato() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <section id='primeira-apresentacao'>

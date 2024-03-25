@@ -19,8 +19,13 @@ import Dev2 from '../../assets/img/Projetos/Programação/Dev-2.png';
 import Dev3 from '../../assets/img/Projetos/Programação/Dev-3.png';
 import Dev4 from '../../assets/img/Projetos/Programação/Dev-4.png';
 import Dev5 from '../../assets/img/Projetos/Programação/Dev-5.png';
+import { useEffect } from 'react';
 
 export function FrontEnd() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <section id='primeira-apresentacao'>

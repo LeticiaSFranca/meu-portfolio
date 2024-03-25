@@ -8,8 +8,13 @@ import Polaroid1 from '../../assets/img/Polaroids/Polaroid-1.png';
 import Polaroid2 from '../../assets/img/Polaroids/Polaroid-2.png';
 import Polaroid3 from '../../assets/img/Polaroids/Polaroid-3.png';
 import Polaroid4 from '../../assets/img/Polaroids/Polaroid-4.png';
+import { useEffect } from 'react';
 
 export function MedicinaVeterinaria() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <section id='primeira-apresentacao'>

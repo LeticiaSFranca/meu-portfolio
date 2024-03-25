@@ -9,10 +9,10 @@ export function Footer() {
         <footer>
             <p>Desenvolvido por Letícia França</p>
             <div id='div-como-encontrar'>
-                <a href="https://www.instagram.com/leticia.s.franca/?hl=pt-br" target="_blank" rel="noopener noreferrer"><AiFillInstagram className='icones-como-encontrar'/></a>
-                <a href="mailto:leticiasilvafranca17@gmail.com" target="_blank" rel="noopener noreferrer"><IoMail className='icones-como-encontrar'/></a>
+                <a href="https://www.instagram.com/leticia.s.franca/?hl=pt-br" target="_blank" rel="noopener noreferrer"><AiFillInstagram className='icones-como-encontrar' /></a>
+                <a href="mailto:leticiasilvafranca17@gmail.com" target="_blank" rel="noopener noreferrer"><IoMail className='icones-como-encontrar' /></a>
                 <a href="https://www.linkedin.com/in/leticiasfranca/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='icones-como-encontrar'/></a>
-                <a href="https://www.youtube.com/@leticia.s.franca" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
+                <a href="https://www.youtube.com/@leticia.s.franca" target="_blank" rel="noopener noreferrer"><FaYoutube className='icones-como-encontrar' /></a>
             </div>
         </footer>
     );
