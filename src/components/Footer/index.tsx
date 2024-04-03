@@ -15,6 +15,7 @@ export function Footer() {
                 <a href="https://www.linkedin.com/in/leticiasfranca/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className='icones-como-encontrar'/></a>
                 <a href="https://www.youtube.com/@leticia.s.franca" target="_blank" rel="noopener noreferrer"><FaYoutube className='icones-como-encontrar' /></a>
                 <a href="https://github.com/LeticiaSFranca" target="_blank" rel="noopener noreferrer"><FaGithub className='icones-como-encontrar' /></a>
+
             </div>
         </footer>
     );
