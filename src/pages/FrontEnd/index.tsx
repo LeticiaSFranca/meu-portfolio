@@ -1,7 +1,6 @@
 import './FrontEnd.style.css';
 import imgApresentacao from '../../assets/img/imagem-apresentação.png';
 import CardProjetos from '../../components/CardProjetos';
-import { FaGithub } from "react-icons/fa6";
 
 import Design1 from '../../assets/img/Projetos/Design/Design-1.png';
 import Design2 from '../../assets/img/Projetos/Design/Design-2.png';
@@ -24,6 +23,7 @@ import Dev7 from '../../assets/img/Projetos/Programação/Dev-7.png';
 import Dev8 from '../../assets/img/Projetos/Programação/Dev-8.png';
 import Dev9 from '../../assets/img/Projetos/Programação/Dev-9.png';
 import { useEffect } from 'react';
+import CardFeedBacks from '../../components/CardFeedBacks';
 
 export function FrontEnd() {
     useEffect(() => {
@@ -148,42 +148,49 @@ export function FrontEnd() {
                 <CardProjetos
                 imagemProjetos={Dev6}
                 nomeProjetos='Gerenciamento de Estoque'
-                linkProjetos='https://github.com/LeticiaSFranca'
-                nomeBotao='> Acessar <' />
+                linkProjetos='https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/projeto-estoque-js'
+                nomeBotao='> Acessar GitHub <' />
 
                 <CardProjetos
                 imagemProjetos={Dev7}
                 nomeProjetos='E-Commerce Estático'
-                linkProjetos='https://github.com/LeticiaSFranca'
-                nomeBotao='> Acessar <' />
+                linkProjetos='https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/E-Commerce-main'
+                nomeBotao='> Acessar GitHub <' />
 
                 <CardProjetos
                 imagemProjetos={Dev8}
-                nomeProjetos='Meu Portfólio Anterior'
-                linkProjetos='https://github.com/LeticiaSFranca'
-                nomeBotao='> Acessar <' />
+                nomeProjetos='Landing Page - Super Mario Bross'
+                linkProjetos='https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/site-mario-bross'
+                nomeBotao='> Acessar GitHub <' />
 
                 <CardProjetos
                 imagemProjetos={Dev9}
                 nomeProjetos='Meu Primeiro Site em HTML & CSS'
-                linkProjetos='https://github.com/LeticiaSFranca'
-                nomeBotao='> Acessar <' />
+                linkProjetos='https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/Meu-Primeiro-Site'
+                nomeBotao='> Acessar GitHub <' />
                 </div>
             </section>
 
-            <section id='quarta-apresentacao'>
-                <div id='github-card'>
-                    <div id='icone-github-card'><FaGithub /></div>
-                    
-                    <div id='texto-github-card'>
-                        <h3>Acesse Meu GitHub!</h3>
-                        <p>Oie! Lá no meu GitHub, possui todos os meus projetos feitos
-                            até hoje, venha ver!
-                        </p>
-                        <a href="https://github.com/LeticiaSFranca" target="_blank" rel="noopener noreferrer">Acessar</a>
-                    </div>
+            {/* <section id='quarta-apresentacao'>
+                <h2>FeedBacks e Recomendações</h2>
+
+                <div id='cards-feedbacks'>
+                    <CardFeedBacks
+                    nomeFeedBacks='Artur Bomtempo'
+                    spanFeedBacks=''
+                    />
+
+                    <CardFeedBacks
+                    nomeFeedBacks='Sâmeck Zanela'
+                    spanFeedBacks=''
+                    />
+
+                    <CardFeedBacks
+                    nomeFeedBacks='Yuri Souza'
+                    spanFeedBacks=''
+                    />
                 </div>
-            </section>
+            </section> */}
         </>
     );
 }

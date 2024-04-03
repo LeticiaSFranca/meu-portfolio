@@ -1,0 +1,50 @@
+#github-card {
+    width: 30%;
+    margin-top: 8vh;
+    background-color: var(--cor-branca);
+    padding: 3vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px var(--cor-primaria);
+}
+
+#icone-github-card {
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-primaria);
+}
+
+#texto-github-card {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    text-align: left;
+    max-width: 20vw;
+
+    h3 {
+        font-weight: bolder;
+        color: var(--cor-primaria);
+    }
+
+    p {
+        margin-top: 0.5vh;
+        font-size: 15px;
+    }
+
+    a {
+        margin-top: 2vh;
+        color: var(--cor-primaria);
+        text-decoration: none;
+
+        &:hover{
+            opacity: 70%;
+            cursor: pointer;
+        }
+    }
+}
