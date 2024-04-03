@@ -19,6 +19,10 @@ import Dev2 from '../../assets/img/Projetos/Programação/Dev-2.png';
 import Dev3 from '../../assets/img/Projetos/Programação/Dev-3.png';
 import Dev4 from '../../assets/img/Projetos/Programação/Dev-4.png';
 import Dev5 from '../../assets/img/Projetos/Programação/Dev-5.png';
+import Dev6 from '../../assets/img/Projetos/Programação/Dev-6.png';
+import Dev7 from '../../assets/img/Projetos/Programação/Dev-7.png';
+import Dev8 from '../../assets/img/Projetos/Programação/Dev-8.png';
+import Dev9 from '../../assets/img/Projetos/Programação/Dev-9.png';
 import { useEffect } from 'react';
 
 export function FrontEnd() {
@@ -138,6 +142,30 @@ export function FrontEnd() {
                 <CardProjetos
                 imagemProjetos={Dev5}
                 nomeProjetos='Meu GitHub'
+                linkProjetos='https://github.com/LeticiaSFranca'
+                nomeBotao='> Acessar <' />
+
+                <CardProjetos
+                imagemProjetos={Dev6}
+                nomeProjetos='Gerenciamento de Estoque'
+                linkProjetos='https://github.com/LeticiaSFranca'
+                nomeBotao='> Acessar <' />
+
+                <CardProjetos
+                imagemProjetos={Dev7}
+                nomeProjetos='E-Commerce Estático'
+                linkProjetos='https://github.com/LeticiaSFranca'
+                nomeBotao='> Acessar <' />
+
+                <CardProjetos
+                imagemProjetos={Dev8}
+                nomeProjetos='Meu Portfólio Anterior'
+                linkProjetos='https://github.com/LeticiaSFranca'
+                nomeBotao='> Acessar <' />
+
+                <CardProjetos
+                imagemProjetos={Dev9}
+                nomeProjetos='Meu Primeiro Site em HTML & CSS'
                 linkProjetos='https://github.com/LeticiaSFranca'
                 nomeBotao='> Acessar <' />
                 </div>
