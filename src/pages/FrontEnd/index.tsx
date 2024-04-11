@@ -22,6 +22,7 @@ import Dev6 from '../../assets/img/Projetos/Programação/Dev-6.png';
 import Dev7 from '../../assets/img/Projetos/Programação/Dev-7.png';
 import Dev8 from '../../assets/img/Projetos/Programação/Dev-8.png';
 import Dev9 from '../../assets/img/Projetos/Programação/Dev-9.png';
+import Dev10 from '../../assets/img/Projetos/Programação/Dev-10.png'; 
 import { useEffect } from 'react';
 import CardFeedBacks from '../../components/CardFeedBacks';
 
@@ -168,6 +169,12 @@ export function FrontEnd() {
                 nomeProjetos='Meu Primeiro Site em HTML & CSS'
                 linkProjetos='https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/Meu-Primeiro-Site'
                 nomeBotao='> Acessar GitHub <' />
+
+                <CardProjetos
+                imagemProjetos={Dev10}
+                nomeProjetos='Projeto WindWell'
+                linkProjetos='https://projetomindwell.vercel.app/'
+                nomeBotao='> Acessar <' />
                 </div>
             </section>
 
