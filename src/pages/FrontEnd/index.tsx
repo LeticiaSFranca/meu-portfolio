@@ -24,7 +24,6 @@ import Dev8 from '../../assets/img/Projetos/Programação/Dev-8.png';
 import Dev9 from '../../assets/img/Projetos/Programação/Dev-9.png';
 import Dev10 from '../../assets/img/Projetos/Programação/Dev-10.png'; 
 import { useEffect } from 'react';
-import CardFeedBacks from '../../components/CardFeedBacks';
 
 export function FrontEnd() {
     useEffect(() => {
@@ -177,27 +176,6 @@ export function FrontEnd() {
                 nomeBotao='> Acessar <' />
                 </div>
             </section>
-
-            {/* <section id='quarta-apresentacao'>
-                <h2>FeedBacks e Recomendações</h2>
-
-                <div id='cards-feedbacks'>
-                    <CardFeedBacks
-                    nomeFeedBacks='Artur Bomtempo'
-                    spanFeedBacks=''
-                    />
-
-                    <CardFeedBacks
-                    nomeFeedBacks='Sâmeck Zanela'
-                    spanFeedBacks=''
-                    />
-
-                    <CardFeedBacks
-                    nomeFeedBacks='Yuri Souza'
-                    spanFeedBacks=''
-                    />
-                </div>
-            </section> */}
         </>
     );
 }
