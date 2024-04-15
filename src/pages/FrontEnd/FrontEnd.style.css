@@ -43,22 +43,17 @@
     }
 }
 
-#quarta-apresentacao {
+#icones-desenvolvimento {
     width: 100%;
     display: flex;
     align-items: center;
     background-color: var(--cor-branca);
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 5vh;
-    padding: 10vh 0;
-
-    h2 {
-        color: var(--cor-primaria);
-        font-weight: bolder;
-        font-size: 30px;
-    }
+    margin-top: 6vh;
+    font-size: 50px;
+    color: var(--cor-primaria);
 }
 
 .todos-os-cards{

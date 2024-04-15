@@ -1,6 +1,7 @@
 import './FrontEnd.style.css';
 import imgApresentacao from '../../assets/img/imagem-apresentação.png';
 import CardProjetos from '../../components/CardProjetos';
+import { useEffect } from 'react';
 
 import Design1 from '../../assets/img/Projetos/Design/Design-1.png';
 import Design2 from '../../assets/img/Projetos/Design/Design-2.png';
@@ -22,8 +23,15 @@ import Dev6 from '../../assets/img/Projetos/Programação/Dev-6.png';
 import Dev7 from '../../assets/img/Projetos/Programação/Dev-7.png';
 import Dev8 from '../../assets/img/Projetos/Programação/Dev-8.png';
 import Dev9 from '../../assets/img/Projetos/Programação/Dev-9.png';
-import Dev10 from '../../assets/img/Projetos/Programação/Dev-10.png'; 
-import { useEffect } from 'react';
+import Dev10 from '../../assets/img/Projetos/Programação/Dev-10.png';
+
+import { FaHtml5 } from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io";
+import { RiReactjsFill } from "react-icons/ri";
+import { IoLogoJavascript } from "react-icons/io5";
+import { GrMysql } from "react-icons/gr";
+import { SiPhp } from "react-icons/si";
+import { SiCsharp } from "react-icons/si";
 
 export function FrontEnd() {
     useEffect(() => {
@@ -175,6 +183,16 @@ export function FrontEnd() {
                 linkProjetos='https://projetomindwell.vercel.app/'
                 nomeBotao='> Acessar <' />
                 </div>
+            </section>
+
+            <section id='icones-desenvolvimento'>
+                <FaHtml5 />
+                <IoLogoCss3 />
+                <RiReactjsFill />
+                <IoLogoJavascript />
+                <GrMysql />
+                <SiPhp />
+                <SiCsharp />
             </section>
         </>
     );
