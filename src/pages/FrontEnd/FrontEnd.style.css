@@ -16,7 +16,7 @@
     }
 
     img {
-        width: 13vw;
+        width: 11vw;
     }
 }
 
@@ -100,5 +100,10 @@
 
     #texto-github-card {
         max-width: 50vw;
+    }
+
+    #icones-desenvolvimento {
+        font-size: 25px;
+        margin-top: 2vh;
     }
 }

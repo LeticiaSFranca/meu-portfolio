@@ -14,6 +14,19 @@ import Design8 from '../../assets/img/Projetos/Design/Design-8.png';
 import Design9 from '../../assets/img/Projetos/Design/Design-9.png';
 import Design10 from '../../assets/img/Projetos/Design/Design-10.png';
 
+import Polaroid1 from '../../assets/img/Polaroids/Desenvolvimento/Polaroid-1.png';
+import Polaroid2 from '../../assets/img/Polaroids/Desenvolvimento/Polaroid-2.png';
+import Polaroid3 from '../../assets/img/Polaroids/Desenvolvimento/Polaroid-3.png';
+import Polaroid4 from '../../assets/img/Polaroids/Desenvolvimento/Polaroid-4.png';
+import Polaroid5 from '../../assets/img/Polaroids/Desenvolvimento/Polaroid-5.png';
+import Polaroid6 from '../../assets/img/Polaroids/Desenvolvimento/Polaroid-6.png';
+import Polaroid7 from '../../assets/img/Polaroids/Desenvolvimento/Polaroid-7.png';
+import Polaroid8 from '../../assets/img/Polaroids/Desenvolvimento/Polaroid-8.png';
+import Polaroid9 from '../../assets/img/Polaroids/Desenvolvimento/Polaroid-9.png';
+import Polaroid10 from '../../assets/img/Polaroids/Desenvolvimento/Polaroid-10.png';
+import Polaroid11 from '../../assets/img/Polaroids/Desenvolvimento/Polaroid-11.png';
+
+
 import Dev1 from '../../assets/img/Projetos/Programação/Dev-1.png';
 import Dev2 from '../../assets/img/Projetos/Programação/Dev-2.png';
 import Dev3 from '../../assets/img/Projetos/Programação/Dev-3.png';
@@ -51,6 +64,16 @@ export function FrontEnd() {
                         inovar e superar expectativas🤩. Adoro colaborar em projetos que valorizem
                         a excelência e o impacto positivo💖.</p>
                 </div>
+            </section>
+
+            <section id='icones-desenvolvimento'>
+                <FaHtml5 />
+                <IoLogoCss3 />
+                <RiReactjsFill />
+                <IoLogoJavascript />
+                <GrMysql />
+                <SiPhp />
+                <SiCsharp />
             </section>
 
             <section id='segunda-apresentacao'>
@@ -120,6 +143,24 @@ export function FrontEnd() {
             </section>
 
             <section id='terceira-apresentacao'>
+                <h2>Alguns Registros 📸💖</h2>
+
+                <div className='todos-os-registros'>
+                    <img src={Polaroid1} alt="Polaroid-1" className='img-polaroids'/>
+                    <img src={Polaroid2} alt="Polaroid-2" className='img-polaroids'/>
+                    <img src={Polaroid3} alt="Polaroid-3" className='img-polaroids'/>
+                    <img src={Polaroid4} alt="Polaroid-4" className='img-polaroids'/>
+                    <img src={Polaroid5} alt="Polaroid-5" className='img-polaroids'/>
+                    <img src={Polaroid6} alt="Polaroid-6" className='img-polaroids'/>
+                    <img src={Polaroid7} alt="Polaroid-7" className='img-polaroids'/>
+                    <img src={Polaroid8} alt="Polaroid-8" className='img-polaroids'/>
+                    <img src={Polaroid9} alt="Polaroid-9" className='img-polaroids'/>
+                    <img src={Polaroid10} alt="Polaroid-10" className='img-polaroids'/>
+                    <img src={Polaroid11} alt="Polaroid-11" className='img-polaroids'/>
+                </div>
+            </section>
+
+            <section id='quarta-apresentacao'>
                 <h2>Projetos de Programação Web</h2>
                 
                 <div className='todos-os-cards'>
@@ -183,16 +224,6 @@ export function FrontEnd() {
                 linkProjetos='https://projetomindwell.vercel.app/'
                 nomeBotao='> Acessar <' />
                 </div>
-            </section>
-
-            <section id='icones-desenvolvimento'>
-                <FaHtml5 />
-                <IoLogoCss3 />
-                <RiReactjsFill />
-                <IoLogoJavascript />
-                <GrMysql />
-                <SiPhp />
-                <SiCsharp />
             </section>
         </>
     );
