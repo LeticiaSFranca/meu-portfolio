@@ -52,7 +52,7 @@ export function MedicinaVeterinaria() {
                 </div>
             </section>
 
-            <section id='icones-desenvolvimento'>
+            <section id='icones-principais'>
                 <GiCow />
                 <FaHorse />
                 <GiSheep />
@@ -61,7 +61,7 @@ export function MedicinaVeterinaria() {
             </section>
 
             <section id='segunda-apresentacao'>
-                <h2>Cursos e Congressos</h2>
+                <h2 className='titulo-colorido'>Cursos e Congressos</h2>
                 
                 <div className='todos-os-cards'>
                 <CardProjetos
@@ -97,7 +97,7 @@ export function MedicinaVeterinaria() {
             </section>
 
             <section id='terceira-apresentacao'>
-                <h2>Alguns Registros 📸💖</h2>
+                <h2 className='titulo-colorido'>Alguns Registros 📸💖</h2>
 
                 <div className='todos-os-registros'>
                     <img src={Polaroid1} alt="Polaroid-1" className='img-polaroids'/>
@@ -121,7 +121,7 @@ export function MedicinaVeterinaria() {
             </section>
 
             <section id='quarta-apresentacao'>
-            <h2>Meus Projetos</h2>
+            <h2 className='titulo-branco'>Meus Projetos</h2>
                 
                 <div className='todos-os-cards'>
                 <CardProjetos

@@ -66,7 +66,7 @@ export function FrontEnd() {
                 </div>
             </section>
 
-            <section id='icones-desenvolvimento'>
+            <section id='icones-principais'>
                 <FaHtml5 />
                 <IoLogoCss3 />
                 <RiReactjsFill />
@@ -77,7 +77,7 @@ export function FrontEnd() {
             </section>
 
             <section id='segunda-apresentacao'>
-                <h2>Projetos de Design e Personalizados</h2>
+                <h2 className='titulo-colorido'>Projetos de Design e Personalizados</h2>
                 
                 <div className='todos-os-cards'>
                 <CardProjetos
@@ -143,7 +143,7 @@ export function FrontEnd() {
             </section>
 
             <section id='terceira-apresentacao'>
-                <h2>Alguns Registros 📸💖</h2>
+                <h2 className='titulo-colorido'>Alguns Registros 📸💖</h2>
 
                 <div className='todos-os-registros'>
                     <img src={Polaroid1} alt="Polaroid-1" className='img-polaroids'/>
@@ -161,7 +161,7 @@ export function FrontEnd() {
             </section>
 
             <section id='quarta-apresentacao'>
-                <h2>Projetos de Programação Web</h2>
+                <h2 className='titulo-branco'>Projetos de Programação Web</h2>
                 
                 <div className='todos-os-cards'>
                 <CardProjetos

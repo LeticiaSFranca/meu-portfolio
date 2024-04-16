@@ -36,6 +36,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Padronizações de Páginas */
+
+.titulo-colorido {
+    text-align: center;
+    color: var(--cor-primaria);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.titulo-branco {
+    text-align: center;
+    color: var(--cor-branca);
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 14vh;
+}
+
 #segunda-apresentacao {
     width: 100%;
     display: flex;
@@ -45,10 +61,8 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: wrap;
     padding: 5vh 0;
 
-    h2 {
-        color: var(--cor-branca);
-        font-weight: bolder;
-        font-size: 30px;
+    img {
+        width: 11vw;
     }
 }
 
@@ -61,12 +75,6 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
-
-    h2 {
-        color: var(--cor-primaria);
-        font-weight: bolder;
-        font-size: 30px;
-    }
 
     .img-polaroids {
         margin-top: 7vh;
@@ -83,13 +91,20 @@ body::-webkit-scrollbar-thumb {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 5vh;
+}
 
-    h2 {
-        color: var(--cor-branca);
-        font-weight: bolder;
-        font-size: 30px;
-        margin-top: 5vh;
-    }
+/* Ícones Importantes */
+#icones-principais {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-branca);
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 6vh;
+    font-size: 50px;
+    color: var(--cor-primaria);
 }
 
 /* Estilização de Cards */
@@ -113,9 +128,22 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: wrap;
 }
 
+/* #cards-feedbacks {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
 /* Responsividades */
 
 @media (max-width: 1080px){
+    #segunda-apresentacao {
+        padding: 2vh 0;
+    }
+
     #terceira-apresentacao { 
         h2 {
             font-size: 30px; 
@@ -132,5 +160,11 @@ body::-webkit-scrollbar-thumb {
             margin-top: -10vh;
             font-size: 30px; 
         }
+    }
+
+    #icones-principais {
+        font-size: 25px;
+        margin-top: 2vh;
+        padding: 0;
     }
 }
