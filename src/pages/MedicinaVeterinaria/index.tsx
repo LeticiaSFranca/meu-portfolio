@@ -10,6 +10,12 @@ import Polaroid3 from '../../assets/img/Polaroids/Polaroid-3.png';
 import Polaroid4 from '../../assets/img/Polaroids/Polaroid-4.png';
 import { useEffect } from 'react';
 
+<<<<<<< Updated upstream
+=======
+import Projeto1 from '../../assets/img/Projetos/Programação/Dev-10.png';
+import Projeto2 from '../../assets/img/Projetos/Programação/Dev-11.png';
+
+>>>>>>> Stashed changes
 export function MedicinaVeterinaria() {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -89,10 +95,10 @@ export function MedicinaVeterinaria() {
                 nomeBotao='' />
                 
                 <CardProjetos
-                imagemProjetos={Imagem}
-                nomeProjetos='Em Breve'
-                linkProjetos=''
-                nomeBotao='' />
+                imagemProjetos={Projeto2}
+                nomeProjetos='Plumas Preciosas'
+                linkProjetos='https://plumaspreciosas.vercel.app/'
+                nomeBotao='> Acessar <' />
 
                 <CardProjetos
                 imagemProjetos={Imagem}

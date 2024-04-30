@@ -13,7 +13,7 @@ const CardProjetos: React.FC<CardProjetosProps> = ({ imagemProjetos, nomeProjeto
         <>
             <div className='card-projetos'>
                 <div>
-                    <img src={imagemProjetos} alt={nomeProjetos} />
+                    <img src={imagemProjetos} alt={nomeProjetos} className='img-cards-projetos'/>
                     <h3>{nomeProjetos}</h3>
                     <hr />
                     <a href={linkProjetos} target="_blank" rel="noopener noreferrer">{nomeBotao}</a>

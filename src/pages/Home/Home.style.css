@@ -87,6 +87,11 @@
     font-size: 16px;
 }
 
+#terceira-apresentacao h2 {
+    font-weight: bolder;
+    color: var(--cor-primaria);
+}
+
 @media (max-width: 1080px) {
     #primeira-apresentacao {
         width: 100%;
@@ -123,8 +128,8 @@
         font-size: 13px;
     }
 
-    .imgs-segunda-apresentacao {
-        width: 60vw;
+    #segunda-apresentacao .imgs-segunda-apresentacao {
+        width: 25vw;
         margin-bottom: 2vh;
     }
 
