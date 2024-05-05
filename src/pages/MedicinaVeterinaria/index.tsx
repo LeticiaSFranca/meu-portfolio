@@ -4,23 +4,22 @@ import imgApresentacao from '../../assets/img/imagem-apresentação-2.png';
 import Imagem from '../../assets/img/em-andamento.png';
 import CardProjetos from '../../components/CardProjetos';
 
-import Polaroid1 from '../../assets/img/Polaroids/MedVet/Polaroid-1.png';
-import Polaroid2 from '../../assets/img/Polaroids/MedVet/Polaroid-2.png';
-import Polaroid3 from '../../assets/img/Polaroids/MedVet/Polaroid-3.png';
-import Polaroid4 from '../../assets/img/Polaroids/MedVet/Polaroid-4.png';
-import Polaroid5 from '../../assets/img/Polaroids/MedVet/Polaroid-5.png';
-import Polaroid6 from '../../assets/img/Polaroids/MedVet/Polaroid-6.png';
-import Polaroid7 from '../../assets/img/Polaroids/MedVet/Polaroid-7.png';
-import Polaroid8 from '../../assets/img/Polaroids/MedVet/Polaroid-8.png';
-import Polaroid9 from '../../assets/img/Polaroids/MedVet/Polaroid-9.png';
-import Polaroid10 from '../../assets/img/Polaroids/MedVet/Polaroid-10.png';
-import Polaroid11 from '../../assets/img/Polaroids/MedVet/Polaroid-11.png';
-import Polaroid12 from '../../assets/img/Polaroids/MedVet/Polaroid-12.png';
-import Polaroid13 from '../../assets/img/Polaroids/MedVet/Polaroid-13.png';
-import Polaroid14 from '../../assets/img/Polaroids/MedVet/Polaroid-14.png';
-import Polaroid15 from '../../assets/img/Polaroids/MedVet/Polaroid-15.png';
-import Polaroid16 from '../../assets/img/Polaroids/MedVet/Polaroid-16.png';
-import Polaroid17 from '../../assets/img/Polaroids/MedVet/Polaroid-17.png';
+import Registro1 from '../../assets/img/Registros/MedVet/Reg-1.png';
+import Registro2 from '../../assets/img/Registros/MedVet/Reg-2.png';
+import Registro3 from '../../assets/img/Registros/MedVet/Reg-3.png';
+import Registro4 from '../../assets/img/Registros/MedVet/Reg-4.png';
+import Registro5 from '../../assets/img/Registros/MedVet/Reg-5.png';
+import Registro6 from '../../assets/img/Registros/MedVet/Reg-6.png';
+import Registro7 from '../../assets/img/Registros/MedVet/Reg-7.png';
+import Registro8 from '../../assets/img/Registros/MedVet/Reg-8.png';
+import Registro9 from '../../assets/img/Registros/MedVet/Reg-9.png';
+import Registro10 from '../../assets/img/Registros/MedVet/Reg-10.png';
+import Registro11 from '../../assets/img/Registros/MedVet/Reg-11.png';
+import Registro12 from '../../assets/img/Registros/MedVet/Reg-12.png';
+import Registro13 from '../../assets/img/Registros/MedVet/Reg-13.png';
+import Registro14 from '../../assets/img/Registros/MedVet/Reg-14.png';
+import Registro15 from '../../assets/img/Registros/MedVet/Reg-15.png';
+import Registro16 from '../../assets/img/Registros/MedVet/Reg-16.png';
 
 import { GiCow } from "react-icons/gi";
 import { FaHorse } from "react-icons/fa";
@@ -101,23 +100,22 @@ export function MedicinaVeterinaria() {
                 <h2 className='titulo-colorido'>Alguns Registros 📸💖</h2>
 
                 <div className='todos-os-registros'>
-                    <img src={Polaroid1} alt="Polaroid-1" className='img-polaroids'/>
-                    <img src={Polaroid2} alt="Polaroid-2" className='img-polaroids'/>
-                    <img src={Polaroid3} alt="Polaroid-3" className='img-polaroids'/>
-                    <img src={Polaroid4} alt="Polaroid-4" className='img-polaroids'/>
-                    <img src={Polaroid5} alt="Polaroid-5" className='img-polaroids'/>
-                    <img src={Polaroid6} alt="Polaroid-6" className='img-polaroids'/>
-                    <img src={Polaroid7} alt="Polaroid-7" className='img-polaroids'/>
-                    <img src={Polaroid8} alt="Polaroid-8" className='img-polaroids'/>
-                    <img src={Polaroid9} alt="Polaroid-9" className='img-polaroids'/>
-                    <img src={Polaroid10} alt="Polaroid-10" className='img-polaroids'/>
-                    <img src={Polaroid11} alt="Polaroid-11" className='img-polaroids'/>
-                    <img src={Polaroid12} alt="Polaroid-12" className='img-polaroids'/>
-                    <img src={Polaroid13} alt="Polaroid-13" className='img-polaroids'/>
-                    <img src={Polaroid14} alt="Polaroid-14" className='img-polaroids'/>
-                    <img src={Polaroid15} alt="Polaroid-15" className='img-polaroids'/>
-                    <img src={Polaroid16} alt="Polaroid-16" className='img-polaroids'/>
-                    <img src={Polaroid17} alt="Polaroid-17" className='img-polaroids'/>
+                <img src={Registro1} alt="Registro-1" className='img-registros'/>
+                    <img src={Registro2} alt="Registro-2" className='img-registros'/>
+                    <img src={Registro3} alt="Registro-3" className='img-registros'/>
+                    <img src={Registro4} alt="Registro-4" className='img-registros'/>
+                    <img src={Registro5} alt="Registro-5" className='img-registros'/>
+                    <img src={Registro6} alt="Registro-6" className='img-registros'/>
+                    <img src={Registro7} alt="Registro-7" className='img-registros'/>
+                    <img src={Registro8} alt="Registro-8" className='img-registros'/>
+                    <img src={Registro9} alt="Registro-9" className='img-registros'/>
+                    <img src={Registro10} alt="Registro-10" className='img-registros'/>
+                    <img src={Registro11} alt="Registro-11" className='img-registros'/>
+                    <img src={Registro12} alt="Registro-12" className='img-registros'/>
+                    <img src={Registro13} alt="Registro13" className='img-registros'/>
+                    <img src={Registro14} alt="Registro-14" className='img-registros'/>
+                    <img src={Registro15} alt="Registro-15" className='img-registros'/>
+                    <img src={Registro16} alt="Registro-16" className='img-registros'/> 
                 </div>
             </section>
 

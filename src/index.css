@@ -76,9 +76,11 @@ body::-webkit-scrollbar-thumb {
     flex-direction: row;
     flex-wrap: wrap;
 
-    .img-polaroids {
+    .img-registros {
         margin-top: 7vh;
         width: 16vw;
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px var(--cor-primaria);
     }
 }
 
