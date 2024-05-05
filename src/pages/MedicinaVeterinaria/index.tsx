@@ -29,7 +29,8 @@ import { GiPig } from "react-icons/gi";
 import { GiChicken } from "react-icons/gi";
 import { useEffect } from 'react';
 
-import Projeto1 from '../../assets/img/Projetos/Programação/Dev-10.png'
+import Projeto1 from '../../assets/img/Projetos/Programação/Dev-10.png';
+import Projeto2 from '../../assets/img/Projetos/Programação/Dev-11.png';
 
 export function MedicinaVeterinaria() {
     useEffect(() => {
@@ -131,10 +132,10 @@ export function MedicinaVeterinaria() {
                 nomeBotao='> Acessar <' />
                 
                 <CardProjetos
-                imagemProjetos={Imagem}
-                nomeProjetos='Em Breve'
-                linkProjetos=''
-                nomeBotao='' />
+                imagemProjetos={Projeto2}
+                nomeProjetos='Plumas Preciosas'
+                linkProjetos='https://plumaspreciosas.vercel.app/'
+                nomeBotao='> Acessar <' />
 
                 <CardProjetos
                 imagemProjetos={Imagem}

@@ -93,6 +93,10 @@ body::-webkit-scrollbar-thumb {
     margin-top: 5vh;
 }
 
+#quarta-apresentacao h2 {
+    padding-top: 5vh;
+}
+
 /* Ícones Importantes */
 #icones-principais {
     width: 100%;

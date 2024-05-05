@@ -31,12 +31,13 @@ import Dev1 from '../../assets/img/Projetos/Programação/Dev-1.png';
 import Dev2 from '../../assets/img/Projetos/Programação/Dev-2.png';
 import Dev3 from '../../assets/img/Projetos/Programação/Dev-3.png';
 import Dev4 from '../../assets/img/Projetos/Programação/Dev-4.png';
-import Dev5 from '../../assets/img/Projetos/Programação/Dev-5.png';
+// import Dev5 from '../../assets/img/Projetos/Programação/Dev-5.png';
 import Dev6 from '../../assets/img/Projetos/Programação/Dev-6.png';
 import Dev7 from '../../assets/img/Projetos/Programação/Dev-7.png';
 import Dev8 from '../../assets/img/Projetos/Programação/Dev-8.png';
 import Dev9 from '../../assets/img/Projetos/Programação/Dev-9.png';
 import Dev10 from '../../assets/img/Projetos/Programação/Dev-10.png';
+import Dev11 from '../../assets/img/Projetos/Programação/Dev-11.png';
 
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
@@ -188,11 +189,11 @@ export function FrontEnd() {
                 linkProjetos='https://qftech.com.br'
                 nomeBotao='> Acessar <' />
 
-                <CardProjetos
+                {/* <CardProjetos
                 imagemProjetos={Dev5}
                 nomeProjetos='Meu GitHub'
                 linkProjetos='https://github.com/LeticiaSFranca'
-                nomeBotao='> Acessar <' />
+                nomeBotao='> Acessar <' /> */}
 
                 <CardProjetos
                 imagemProjetos={Dev6}
@@ -222,6 +223,12 @@ export function FrontEnd() {
                 imagemProjetos={Dev10}
                 nomeProjetos='Projeto WindWell'
                 linkProjetos='https://projetomindwell.vercel.app/'
+                nomeBotao='> Acessar <' />
+
+                <CardProjetos
+                imagemProjetos={Dev11}
+                nomeProjetos='Plumas Preciosas'
+                linkProjetos='https://plumaspreciosas.vercel.app/'
                 nomeBotao='> Acessar <' />
                 </div>
             </section>
