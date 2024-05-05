@@ -60,10 +60,10 @@ body::-webkit-scrollbar-thumb {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 5vh 0;
+}
 
-    img {
-        width: 11vw;
-    }
+#segunda-apresentacao div img {
+    width: 11vw;
 }
 
 #terceira-apresentacao {
@@ -132,20 +132,15 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: wrap;
 }
 
-/* #cards-feedbacks {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
-
 /* Responsividades */
 
 @media (max-width: 1080px){
     #segunda-apresentacao {
         padding: 2vh 0;
+    }
+
+    #segunda-apresentacao div img {
+        width: 20vw;
     }
 
     #terceira-apresentacao { 
