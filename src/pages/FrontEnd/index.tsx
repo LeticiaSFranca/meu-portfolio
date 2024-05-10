@@ -12,7 +12,7 @@ import Design6 from '../../assets/img/Projetos/Design/Design-6.png';
 import Design7 from '../../assets/img/Projetos/Design/Design-7.png';
 import Design8 from '../../assets/img/Projetos/Design/Design-8.png';
 import Design9 from '../../assets/img/Projetos/Design/Design-9.png';
-import Design10 from '../../assets/img/Projetos/Design/Design-10.png';
+import Design11 from '../../assets/img/Projetos/Design/Design-11.png';
 
 import Registro1 from '../../assets/img/Registros/Desenvolvimento/Reg-1.png';
 import Registro2 from '../../assets/img/Registros/Desenvolvimento/Reg-2.png';
@@ -103,8 +103,8 @@ export function FrontEnd() {
                 <CardProjetos
                 imagemProjetos={Design3}
                 nomeProjetos='Criação de Vídeos'
-                linkProjetos=''
-                nomeBotao='' />
+                linkProjetos='https://www.youtube.com/@leticia.s.franca'
+                nomeBotao='> Acessar <' />
 
                 <CardProjetos
                 imagemProjetos={Design4}
@@ -143,8 +143,8 @@ export function FrontEnd() {
                 nomeBotao='' />
 
                 <CardProjetos
-                imagemProjetos={Design10}
-                nomeProjetos='Meu YouTube'
+                imagemProjetos={Design11}
+                nomeProjetos='Camisa Personalizada'
                 linkProjetos=''
                 nomeBotao='' />
                 </div>

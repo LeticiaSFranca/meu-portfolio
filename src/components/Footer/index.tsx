@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa6";
 export function Footer() {
     return (
         <footer>
-            <p>Desenvolvido por Letícia França</p>
+            <p>Desenvolvido por Letícia França</p>  
             <div id='div-como-encontrar'>
                 <a href="https://www.instagram.com/leticia.s.franca/?hl=pt-br" target="_blank" rel="noopener noreferrer"><AiFillInstagram className='icones-como-encontrar' /></a>
                 <a href="mailto:leticiasilvafranca17@gmail.com" target="_blank" rel="noopener noreferrer"><IoMail className='icones-como-encontrar' /></a>
