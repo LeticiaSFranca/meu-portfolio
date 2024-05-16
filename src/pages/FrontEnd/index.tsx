@@ -213,25 +213,25 @@ export function FrontEnd() {
                 imagemProjetos={Dev6}
                 nomeProjetos='Gerenciamento de Estoque'
                 linkProjetos='https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/projeto-estoque-js'
-                nomeBotao='> Acessar GitHub <' />
+                nomeBotao='> GitHub <' />
 
                 <CardProjetos
                 imagemProjetos={Dev7}
                 nomeProjetos='E-Commerce Estático'
                 linkProjetos='https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/E-Commerce-main'
-                nomeBotao='> Acessar GitHub <' />
+                nomeBotao='> GitHub <' />
 
                 <CardProjetos
                 imagemProjetos={Dev8}
                 nomeProjetos='Landing Page - Super Mario Bross'
                 linkProjetos='https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/site-mario-bross'
-                nomeBotao='> Acessar GitHub <' />
+                nomeBotao='> GitHub <' />
 
                 <CardProjetos
                 imagemProjetos={Dev9}
                 nomeProjetos='Meu Primeiro Site em HTML & CSS'
                 linkProjetos='https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/Meu-Primeiro-Site'
-                nomeBotao='> Acessar GitHub <' />
+                nomeBotao='> GitHub <' />
 
                 <CardProjetos
                 imagemProjetos={Dev10}
