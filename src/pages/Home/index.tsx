@@ -42,7 +42,7 @@ export function Home() {
             </section>
 
             <section id='terceira-apresentacao'>
-                <h2>Curiosidades Sobre Mim</h2>
+                <h2 id='h2-curiosidades'>Curiosidades Sobre Mim</h2>
                 <p id='texto-sobre-mim'>
                 🐴🃏 Amo cavalos, amo roça, amo jogar truco e amo ouvir moda de viola, se juntar todos, melhor ainda! <br />
                 🎬📸 Amo criar e registrar coisas, então aprendi a montar vídeos com as fotos que tiro <br />

@@ -40,6 +40,12 @@
     margin: 5vh 0;
 }
 
+#h2-curiosidades {
+    color: var(--cor-primaria);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
 .botoes-areas {
     width: 20vw;
     height: 55vh;
