@@ -11,14 +11,10 @@ interface CardProjetosProps {
 const CardProjetos: React.FC<CardProjetosProps> = ({ imagemProjetos, nomeProjetos, linkProjetos, nomeBotao }) => {
     return (
         <>
-            <div className='card-projetos'>
-                <div>
+            <a href={linkProjetos} target="_blank" rel="noopener noreferrer" className='card-projetos'>
                     <img src={imagemProjetos} alt={nomeProjetos} />
                     <h3>{nomeProjetos}</h3>
-                    <hr />
-                    <a href={linkProjetos} target="_blank" rel="noopener noreferrer">{nomeBotao}</a>
-                </div>
-            </div>
+            </a>
         </>
     );
 }
