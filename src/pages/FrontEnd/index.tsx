@@ -12,7 +12,6 @@ import Design6 from '../../assets/img/Projetos/Design/Design-6.png';
 import Design7 from '../../assets/img/Projetos/Design/Design-7.png';
 import Design8 from '../../assets/img/Projetos/Design/Design-8.png';
 import Design9 from '../../assets/img/Projetos/Design/Design-9.png';
-import Design11 from '../../assets/img/Projetos/Design/Design-11.png';
 
 import Registro1 from '../../assets/img/Registros/Desenvolvimento/Reg-1.png';
 import Registro2 from '../../assets/img/Registros/Desenvolvimento/Reg-2.png';
@@ -136,14 +135,14 @@ export function FrontEnd() {
                 linkProjetos=''
                 nomeBotao='' />
 
-                <CardProjetos
+                {/* <CardProjetos
                 imagemProjetos={Design9}
                 nomeProjetos='Brasão'
                 linkProjetos=''
-                nomeBotao='' />
+                nomeBotao='' /> */}
 
                 <CardProjetos
-                imagemProjetos={Design11}
+                imagemProjetos={Design9}
                 nomeProjetos='Camisa Personalizada'
                 linkProjetos=''
                 nomeBotao='' />
