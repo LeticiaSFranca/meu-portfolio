@@ -1,6 +1,8 @@
 # Meu Portfólio
 Projeto desenvolvido com o objetivo de compartilhar minhas principais experiências profissionais, desde cursos realizados até projetos desenvolvidos por mim nas áreas de desenvolvimento de software e de medicina veterinária.
 
+<img width="1440" alt="Imagem da página principal do site" src="https://github.com/LeticiaSFranca/meu-portfolio/assets/96635074/fb65396c-e9e3-4e44-b93b-555eb8a19903">
+
 ## 🔨 Funcionalidade do projeto
 O principal objetivo do site é compartilhar minhas informações com as pessoas. Dessa forma, busco exibir meus dados profissionais de forma dinâmica e descontraída, através de páginas amigáveis contendo os cursos que já realizei/estou fazendo, os projetos desenvolvidos por mim, fotos de momentos marcantes durante a minha trajetória e as tecnologias com as quais trabalho.
 
