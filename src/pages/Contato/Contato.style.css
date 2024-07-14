@@ -24,9 +24,21 @@
     transition: ease-in-out 0.2s;
 }
 
+#form-e-ilustracao {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+#form-e-ilustracao img {
+    width: 40vw;
+}
+
 /* Formulário */
 .formularioContato { 
-    max-width: 1000px; 
+    max-width: 650px; 
     height:auto; 
     margin-top: 5vh;
     padding: 20px 20px; 
@@ -130,7 +142,19 @@
 
 @media (max-width: 1080px)
     {
-        .formularioContato {
+        #form-e-ilustracao {
             width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column-reverse;
+        }
+        
+        #form-e-ilustracao img {
+            width: 80vw;
+        }
+
+        .formularioContato {
+            width: 99%;
         }
     }

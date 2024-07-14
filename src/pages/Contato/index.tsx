@@ -1,5 +1,6 @@
 import './Contato.style.css';
 import imgApresentacao from '../../assets/img/imagem-apresentação-3.png';
+import ilustracaoContato from '../../assets/img/ilustracao-contato.png';
 import { FaPaperPlane } from "react-icons/fa6";
 import { IoPersonSharp } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa6";
@@ -39,42 +40,45 @@ export function Contato() {
                 </div>
             </section>
 
-            <section className="formularioContato">
-            <form action="https://formsubmit.co/leticiasilvafranca17@gmail.com" method="post" encType="multipart/form-data">
-                <h3>Formulário</h3>
-                <br />
-                <label>
-                    <span><i className="icon icon-user-1"></i><IoPersonSharp /> Nome</span>
-                    <input type="text" name="nome" required placeholder="Seu nome" />
-                </label>
+            <div id="form-e-ilustracao">
+                <img src={ilustracaoContato} alt="ilustracao-contato" />
+                <section className="formularioContato">
+                    <form action="https://formsubmit.co/leticiasilvafranca17@gmail.com" method="post" encType="multipart/form-data">
+                        <h3>Formulário</h3>
+                        <br />
+                        <label>
+                            <span><i className="icon icon-user-1"></i><IoPersonSharp /> Nome</span>
+                            <input type="text" name="nome" required placeholder="Seu nome" />
+                        </label>
 
-                <label>
-                    <span><i className="icon icon-email"></i><IoMdMail /> E-mail</span>
-                    <input type="text" name="email" className="fade_8S" placeholder="exemplo@email.com" />
-                </label>
+                        <label>
+                            <span><i className="icon icon-email"></i><IoMdMail /> E-mail</span>
+                            <input type="text" name="email" className="fade_8S" placeholder="exemplo@email.com" />
+                        </label>
 
-                <label>
-                    <span><i className="icon icon-email"></i><FaPhone /> Telefone</span>
-                    <input type="tel" name="celular" required placeholder="(31)91234-5678" id="telefone" />
-                </label>
+                        <label>
+                            <span><i className="icon icon-email"></i><FaPhone /> Telefone</span>
+                            <input type="tel" name="celular" required placeholder="(31)91234-5678" id="telefone" />
+                        </label>
 
-                <label>
-                    <span><i className="icon icon-flag"></i>< MdMarkunreadMailbox /> Assunto</span>
-                    <input type="text" name="assunto" required placeholder="ex: Orçamento" />
-                </label>
+                        <label>
+                            <span><i className="icon icon-flag"></i>< MdMarkunreadMailbox /> Assunto</span>
+                            <input type="text" name="assunto" required placeholder="ex: Orçamento" />
+                        </label>
 
-                <label>
-                    <span><i className="icon icon-comment" id="caixaMensagem"></i><AiFillMessage /> Mensagem</span>
-                    <textarea name="mensagem" required placeholder="Digite aqui sua mensagem." />
-                </label>
+                        <label>
+                            <span><i className="icon icon-comment" id="caixaMensagem"></i><AiFillMessage /> Mensagem</span>
+                            <textarea name="mensagem" required placeholder="Digite aqui sua mensagem." />
+                        </label>
 
-                <input type="hidden" name="acao" value="enviar" />
-                <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_next" value="https://leticiafranca.vercel.app" />
-                <button type="submit" className="btn-envia" title="Enviar"><b>Enviar <FaPaperPlane /></b></button>
-            </form>
-            <br />
-        </section>
+                        <input type="hidden" name="acao" value="enviar" />
+                        <input type="hidden" name="_captcha" value="false" />
+                        <input type="hidden" name="_next" value="https://leticiafranca.vercel.app" />
+                        <button type="submit" className="btn-envia" title="Enviar"><b>Enviar <FaPaperPlane /></b></button>
+                    </form>
+                    <br />
+                </section>
+            </div>
         </>
     );
 }
