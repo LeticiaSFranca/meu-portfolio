@@ -12,6 +12,7 @@ import Design6 from '../../assets/img/Projetos/Design/Design-6.png';
 import Design7 from '../../assets/img/Projetos/Design/Design-7.png';
 import Design8 from '../../assets/img/Projetos/Design/Design-8.png';
 import Design9 from '../../assets/img/Projetos/Design/Design-9.png';
+import Design10 from '../../assets/img/Projetos/Design/Design-10.png';
 
 import Registro1 from '../../assets/img/Registros/Desenvolvimento/Reg-1.png';
 import Registro2 from '../../assets/img/Registros/Desenvolvimento/Reg-2.png';
@@ -37,7 +38,7 @@ import Dev1 from '../../assets/img/Projetos/Programação/Dev-1.png';
 import Dev2 from '../../assets/img/Projetos/Programação/Dev-2.png';
 import Dev3 from '../../assets/img/Projetos/Programação/Dev-3.png';
 import Dev4 from '../../assets/img/Projetos/Programação/Dev-4.png';
-// import Dev5 from '../../assets/img/Projetos/Programação/Dev-5.png';
+//import Dev5 from '../../assets/img/Projetos/Programação/Dev-5.png';
 import Dev6 from '../../assets/img/Projetos/Programação/Dev-6.png';
 import Dev7 from '../../assets/img/Projetos/Programação/Dev-7.png';
 import Dev8 from '../../assets/img/Projetos/Programação/Dev-8.png';
@@ -107,42 +108,42 @@ export function FrontEnd() {
 
                 <CardProjetos
                 imagemProjetos={Design4}
-                nomeProjetos='Criação de Imagens'
+                nomeProjetos='Fotografias'
                 linkProjetos=''
                 nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Design5}
-                nomeProjetos='Adesivos'
+                nomeProjetos='Criação de Imagens'
                 linkProjetos=''
                 nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Design6}
-                nomeProjetos='Cartões de Visita'
+                nomeProjetos='Adesivos'
                 linkProjetos=''
                 nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Design7}
-                nomeProjetos='Crachás'
+                nomeProjetos='Cartões de Visita'
                 linkProjetos=''
                 nomeBotao='' />
 
                 <CardProjetos
                 imagemProjetos={Design8}
+                nomeProjetos='Crachás'
+                linkProjetos=''
+                nomeBotao='' />
+
+                <CardProjetos
+                imagemProjetos={Design9}
                 nomeProjetos='Logomarcas'
                 linkProjetos=''
                 nomeBotao='' />
 
-                {/* <CardProjetos
-                imagemProjetos={Design9}
-                nomeProjetos='Brasão'
-                linkProjetos=''
-                nomeBotao='' /> */}
-
                 <CardProjetos
-                imagemProjetos={Design9}
+                imagemProjetos={Design10}
                 nomeProjetos='Camisa Personalizada'
                 linkProjetos=''
                 nomeBotao='' />

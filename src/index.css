@@ -59,16 +59,11 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 5vh 0;
-}
-
-#segunda-apresentacao div img {
-    width: 11vw;
 }
 
 #terceira-apresentacao {
     width: 100%;
-    padding-top: 5vh;
+    padding: 5vh 0;
     background-color: var(--separar-paginas);
     display: flex;
     align-items: center;
@@ -93,6 +88,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 #quarta-apresentacao h2 {
