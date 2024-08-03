@@ -133,6 +133,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 1080px){
     #segunda-apresentacao {
+        margin: 5vh;
         padding: 2vh 0;
     }
 
@@ -162,5 +163,14 @@ body::-webkit-scrollbar-thumb {
         font-size: 25px;
         margin-top: 2vh;
         padding: 0;
+    }
+
+    .card {
+        width: 30vw;
+        height: 10vh;
+    }
+
+    .card img {
+        width: 25vw;
     }
 }
