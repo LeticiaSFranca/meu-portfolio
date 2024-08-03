@@ -14,31 +14,10 @@ import Design8 from '../../assets/img/Projetos/Design/Design-8.png';
 import Design9 from '../../assets/img/Projetos/Design/Design-9.png';
 import Design10 from '../../assets/img/Projetos/Design/Design-10.png';
 
-import Registro1 from '../../assets/img/Registros/Desenvolvimento/Reg-1.png';
-import Registro2 from '../../assets/img/Registros/Desenvolvimento/Reg-2.png';
-import Registro3 from '../../assets/img/Registros/Desenvolvimento/Reg-3.png';
-import Registro4 from '../../assets/img/Registros/Desenvolvimento/Reg-4.png';
-import Registro5 from '../../assets/img/Registros/Desenvolvimento/Reg-5.png';
-import Registro6 from '../../assets/img/Registros/Desenvolvimento/Reg-6.png';
-import Registro7 from '../../assets/img/Registros/Desenvolvimento/Reg-7.png';
-import Registro8 from '../../assets/img/Registros/Desenvolvimento/Reg-8.png';
-import Registro9 from '../../assets/img/Registros/Desenvolvimento/Reg-9.png';
-import Registro10 from '../../assets/img/Registros/Desenvolvimento/Reg-10.png';
-import Registro11 from '../../assets/img/Registros/Desenvolvimento/Reg-11.png';
-import Registro12 from '../../assets/img/Registros/Desenvolvimento/Reg-12.png';
-import Registro13 from '../../assets/img/Registros/Desenvolvimento/Reg-13.png';
-import Registro14 from '../../assets/img/Registros/Desenvolvimento/Reg-14.png';
-import Registro15 from '../../assets/img/Registros/Desenvolvimento/Reg-15.png';
-import Registro16 from '../../assets/img/Registros/Desenvolvimento/Reg-16.png';
-import Registro17 from '../../assets/img/Registros/Desenvolvimento/Reg-17.png';
-import Registro18 from '../../assets/img/Registros/Desenvolvimento/Reg-18.png';
-
-
 import Dev1 from '../../assets/img/Projetos/Programação/Dev-1.png';
 import Dev2 from '../../assets/img/Projetos/Programação/Dev-2.png';
 import Dev3 from '../../assets/img/Projetos/Programação/Dev-3.png';
 import Dev4 from '../../assets/img/Projetos/Programação/Dev-4.png';
-//import Dev5 from '../../assets/img/Projetos/Programação/Dev-5.png';
 import Dev6 from '../../assets/img/Projetos/Programação/Dev-6.png';
 import Dev7 from '../../assets/img/Projetos/Programação/Dev-7.png';
 import Dev8 from '../../assets/img/Projetos/Programação/Dev-8.png';
@@ -151,32 +130,7 @@ export function FrontEnd() {
             </section>
 
             <section id='terceira-apresentacao'>
-                <h2 className='titulo-colorido'>Alguns Registros 📸💖</h2>
-
-                <div className='todos-os-registros'>
-                    <img src={Registro1} alt="Registro-1" className='img-registros'/>
-                    <img src={Registro2} alt="Registro-2" className='img-registros'/>
-                    <img src={Registro3} alt="Registro-3" className='img-registros'/>
-                    <img src={Registro4} alt="Registro-4" className='img-registros'/>
-                    <img src={Registro5} alt="Registro-5" className='img-registros'/>
-                    <img src={Registro6} alt="Registro-6" className='img-registros'/>
-                    <img src={Registro7} alt="Registro-7" className='img-registros'/>
-                    <img src={Registro8} alt="Registro-8" className='img-registros'/>
-                    <img src={Registro9} alt="Registro-9" className='img-registros'/>
-                    <img src={Registro10} alt="Registro-10" className='img-registros'/>
-                    <img src={Registro11} alt="Registro-11" className='img-registros'/>
-                    <img src={Registro12} alt="Registro-12" className='img-registros'/>
-                    <img src={Registro13} alt="Registro13" className='img-registros'/>
-                    <img src={Registro14} alt="Registro-14" className='img-registros'/>
-                    <img src={Registro15} alt="Registro-15" className='img-registros'/>
-                    <img src={Registro16} alt="Registro-16" className='img-registros'/>
-                    <img src={Registro17} alt="Registro-17" className='img-registros'/>
-                    <img src={Registro18} alt="Registro-18" className='img-registros'/>
-                </div>
-            </section>
-
-            <section id='quarta-apresentacao'>
-                <h2 className='titulo-branco'>Projetos de Programação Web</h2>
+                <h2 className='titulo-colorido'>Projetos de Programação Web</h2>
                 
                 <div className='todos-os-cards'>
                 <CardProjetos

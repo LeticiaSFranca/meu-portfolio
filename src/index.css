@@ -49,7 +49,6 @@ body::-webkit-scrollbar-thumb {
     color: var(--cor-branca);
     font-weight: bolder;
     font-size: 30px;
-    padding-top: 14vh;
 }
 
 #segunda-apresentacao {
@@ -59,20 +58,20 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 5vh 0;
 }
 
 #terceira-apresentacao {
     width: 100%;
-    padding: 5vh 0;
     background-color: var(--separar-paginas);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 5vh 0;
 
     .img-registros {
-        margin-top: 7vh;
         width: 16vw;
         border-radius: 10px;
         box-shadow: 3px 3px 8px var(--cor-primaria);
