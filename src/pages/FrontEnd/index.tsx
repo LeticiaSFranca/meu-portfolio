@@ -64,7 +64,7 @@ export function FrontEnd() {
             </section>
 
             <section id='segunda-apresentacao'>
-                <h2 className='titulo-colorido'>Projetos de Design e Personalizados</h2>
+                <h2 className='titulo-colorido'>Projetos de Design e Personalizados 🎨</h2>
                 
                 <div className='todos-os-cards'>
                 <CardProjetos
@@ -130,7 +130,7 @@ export function FrontEnd() {
             </section>
 
             <section id='terceira-apresentacao'>
-                <h2 className='titulo-colorido'>Projetos de Programação Web</h2>
+                <h2 className='titulo-colorido'>Projetos de Programação Web 👩🏼‍💻</h2>
                 
                 <div className='todos-os-cards'>
                 <CardProjetos
