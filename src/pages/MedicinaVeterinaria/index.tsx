@@ -14,6 +14,23 @@ import { useEffect } from 'react';
 import Projeto1 from '../../assets/img/Projetos/Programação/Dev-10.png';
 import Projeto2 from '../../assets/img/Projetos/Programação/Dev-11.png';
 
+import Registro1 from '../../assets/img/Registros/MedVet/Reg-1.png';
+import Registro2 from '../../assets/img/Registros/MedVet/Reg-2.png';
+import Registro3 from '../../assets/img/Registros/MedVet/Reg-3.png';
+import Registro4 from '../../assets/img/Registros/MedVet/Reg-4.png';
+import Registro5 from '../../assets/img/Registros/MedVet/Reg-5.png';
+import Registro6 from '../../assets/img/Registros/MedVet/Reg-6.png';
+import Registro7 from '../../assets/img/Registros/MedVet/Reg-7.png';
+import Registro8 from '../../assets/img/Registros/MedVet/Reg-8.png';
+import Registro9 from '../../assets/img/Registros/MedVet/Reg-9.png';
+import Registro10 from '../../assets/img/Registros/MedVet/Reg-10.png';
+import Registro11 from '../../assets/img/Registros/MedVet/Reg-11.png';
+import Registro12 from '../../assets/img/Registros/MedVet/Reg-12.png';
+import Registro13 from '../../assets/img/Registros/MedVet/Reg-13.png';
+import Registro14 from '../../assets/img/Registros/MedVet/Reg-14.png';
+import Registro15 from '../../assets/img/Registros/MedVet/Reg-15.png';
+import Registro16 from '../../assets/img/Registros/MedVet/Reg-16.png';
+
 export function MedicinaVeterinaria() {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -112,6 +129,28 @@ export function MedicinaVeterinaria() {
                 nomeProjetos='Em Breve'
                 linkProjetos=''
                 nomeBotao='' />
+                </div>
+            </section>
+
+            <section id='quarta-apresentacao'>
+                <h2 className='titulo-colorido'>Alguns Registros 📸💖</h2>
+                <div className='todos-os-registros'>
+                    <img src={Registro1} alt="Registro-1" className='img-registros'/>
+                    <img src={Registro2} alt="Registro-2" className='img-registros'/>
+                    <img src={Registro3} alt="Registro-3" className='img-registros'/>
+                    <img src={Registro4} alt="Registro-4" className='img-registros'/>
+                    <img src={Registro5} alt="Registro-5" className='img-registros'/>
+                    <img src={Registro6} alt="Registro-6" className='img-registros'/>
+                    <img src={Registro7} alt="Registro-7" className='img-registros'/>
+                    <img src={Registro8} alt="Registro-8" className='img-registros'/>
+                    <img src={Registro9} alt="Registro-9" className='img-registros'/>
+                    <img src={Registro10} alt="Registro-10" className='img-registros'/>
+                    <img src={Registro11} alt="Registro-11" className='img-registros'/>
+                    <img src={Registro12} alt="Registro-12" className='img-registros'/>
+                    <img src={Registro13} alt="Registro13" className='img-registros'/>
+                    <img src={Registro14} alt="Registro-14" className='img-registros'/>
+                    <img src={Registro15} alt="Registro-15" className='img-registros'/>
+                    <img src={Registro16} alt="Registro-16" className='img-registros'/> 
                 </div>
             </section>
         </>
