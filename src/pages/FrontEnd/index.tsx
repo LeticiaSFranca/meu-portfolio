@@ -13,6 +13,8 @@ import Design7 from '../../assets/img/Projetos/Design/Design-7.png';
 import Design8 from '../../assets/img/Projetos/Design/Design-8.png';
 import Design9 from '../../assets/img/Projetos/Design/Design-9.png';
 import Design10 from '../../assets/img/Projetos/Design/Design-10.png';
+import Design11 from '../../assets/img/Projetos/Design/Design-11.png';
+import Design12 from '../../assets/img/Projetos/Design/Design-12.png';
 
 import Dev1 from '../../assets/img/Projetos/Programação/Dev-1.png';
 import Dev2 from '../../assets/img/Projetos/Programação/Dev-2.png';
@@ -24,6 +26,7 @@ import Dev8 from '../../assets/img/Projetos/Programação/Dev-8.png';
 import Dev9 from '../../assets/img/Projetos/Programação/Dev-9.png';
 import Dev10 from '../../assets/img/Projetos/Programação/Dev-10.png';
 import Dev11 from '../../assets/img/Projetos/Programação/Dev-11.png';
+import Dev12 from '../../assets/img/Projetos/Programação/Dev-12.png';
 
 import Registro1 from '../../assets/img/Registros/Desenvolvimento/Reg-1.png';
 import Registro2 from '../../assets/img/Registros/Desenvolvimento/Reg-2.png';
@@ -142,7 +145,19 @@ export function FrontEnd() {
 
                 <CardProjetos
                 imagemProjetos={Design10}
-                nomeProjetos='Camisa Personalizada'
+                nomeProjetos='Personalizados'
+                linkProjetos=''
+                nomeBotao='' />
+
+                <CardProjetos
+                imagemProjetos={Design11}
+                nomeProjetos='Social Mídia'
+                linkProjetos=''
+                nomeBotao='' />
+
+                <CardProjetos
+                imagemProjetos={Design12}
+                nomeProjetos='Criação de Sites'
                 linkProjetos=''
                 nomeBotao='' />
                 </div>
@@ -216,6 +231,12 @@ export function FrontEnd() {
                 imagemProjetos={Dev11}
                 nomeProjetos='Plumas Preciosas'
                 linkProjetos='https://plumaspreciosas.vercel.app/'
+                nomeBotao='> Acessar <' />
+
+                <CardProjetos
+                imagemProjetos={Dev12}
+                nomeProjetos='Angells Vet'
+                linkProjetos='https://angellsvet.vercel.app/'
                 nomeBotao='> Acessar <' />
                 </div>
             </section>
