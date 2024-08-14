@@ -1,0 +1,42 @@
+.carousel-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.carousel-arrow {
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.carousel-arrow:hover {
+    color: #666;
+}
+
+.carousel-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.carousel-card img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}

@@ -28,25 +28,6 @@ import Dev10 from '../../assets/img/Projetos/Programação/Dev-10.png';
 import Dev11 from '../../assets/img/Projetos/Programação/Dev-11.png';
 import Dev12 from '../../assets/img/Projetos/Programação/Dev-12.png';
 
-import Registro1 from '../../assets/img/Registros/Desenvolvimento/Reg-1.png';
-import Registro2 from '../../assets/img/Registros/Desenvolvimento/Reg-2.png';
-import Registro3 from '../../assets/img/Registros/Desenvolvimento/Reg-3.png';
-import Registro4 from '../../assets/img/Registros/Desenvolvimento/Reg-4.png';
-import Registro5 from '../../assets/img/Registros/Desenvolvimento/Reg-5.png';
-import Registro6 from '../../assets/img/Registros/Desenvolvimento/Reg-6.png';
-import Registro7 from '../../assets/img/Registros/Desenvolvimento/Reg-7.png';
-import Registro8 from '../../assets/img/Registros/Desenvolvimento/Reg-8.png';
-import Registro9 from '../../assets/img/Registros/Desenvolvimento/Reg-9.png';
-import Registro10 from '../../assets/img/Registros/Desenvolvimento/Reg-10.png';
-import Registro11 from '../../assets/img/Registros/Desenvolvimento/Reg-11.png';
-import Registro12 from '../../assets/img/Registros/Desenvolvimento/Reg-12.png';
-import Registro13 from '../../assets/img/Registros/Desenvolvimento/Reg-13.png';
-import Registro14 from '../../assets/img/Registros/Desenvolvimento/Reg-14.png';
-import Registro15 from '../../assets/img/Registros/Desenvolvimento/Reg-15.png';
-import Registro16 from '../../assets/img/Registros/Desenvolvimento/Reg-16.png';
-import Registro17 from '../../assets/img/Registros/Desenvolvimento/Reg-17.png';
-import Registro18 from '../../assets/img/Registros/Desenvolvimento/Reg-18.png';
-
 import { FaHtml5 } from 'react-icons/fa';
 import { IoLogoCss3 } from 'react-icons/io';
 import { RiReactjsFill } from 'react-icons/ri';
@@ -54,6 +35,7 @@ import { IoLogoJavascript } from 'react-icons/io5';
 import { GrMysql } from 'react-icons/gr';
 import { SiPhp } from 'react-icons/si';
 import { SiCsharp } from 'react-icons/si';
+import { RegistrationCarousel } from '../../components/Carousels/RegistrationCarousel';
 
 export function FrontEnd() {
     useEffect(() => {
@@ -266,28 +248,9 @@ export function FrontEnd() {
                 </div>
             </section>
 
-            <section id="quarta-apresentacao">
+            <section id="secao">
                 <h2 className="titulo-colorido">Alguns Registros 📸💖</h2>
-                <div className="todos-os-registros">
-                    <img src={Registro1} alt="Registro-1" className="img-registros" />
-                    <img src={Registro2} alt="Registro-2" className="img-registros" />
-                    <img src={Registro3} alt="Registro-3" className="img-registros" />
-                    <img src={Registro4} alt="Registro-4" className="img-registros" />
-                    <img src={Registro5} alt="Registro-5" className="img-registros" />
-                    <img src={Registro6} alt="Registro-6" className="img-registros" />
-                    <img src={Registro7} alt="Registro-7" className="img-registros" />
-                    <img src={Registro8} alt="Registro-8" className="img-registros" />
-                    <img src={Registro9} alt="Registro-9" className="img-registros" />
-                    <img src={Registro10} alt="Registro-10" className="img-registros" />
-                    <img src={Registro11} alt="Registro-11" className="img-registros" />
-                    <img src={Registro12} alt="Registro-12" className="img-registros" />
-                    <img src={Registro13} alt="Registro13" className="img-registros" />
-                    <img src={Registro14} alt="Registro-14" className="img-registros" />
-                    <img src={Registro15} alt="Registro-15" className="img-registros" />
-                    <img src={Registro16} alt="Registro-16" className="img-registros" />
-                    <img src={Registro17} alt="Registro-17" className="img-registros" />
-                    <img src={Registro18} alt="Registro-18" className="img-registros" />
-                </div>
+                <RegistrationCarousel />
             </section>
         </>
     );
