@@ -1,13 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import Registro1 from '../../../assets/img/Registros/Desenvolvimento/Reg-1.png';
-import Registro2 from '../../../assets/img/Registros/Desenvolvimento/Reg-2.png';
-import Registro3 from '../../../assets/img/Registros/Desenvolvimento/Reg-3.png';
-import Registro4 from '../../../assets/img/Registros/Desenvolvimento/Reg-4.png';
-import Registro5 from '../../../assets/img/Registros/Desenvolvimento/Reg-5.png';
-import Registro6 from '../../../assets/img/Registros/Desenvolvimento/Reg-6.png';
-import Registro7 from '../../../assets/img/Registros/Desenvolvimento/Reg-7.png';
-import Registro8 from '../../../assets/img/Registros/Desenvolvimento/Reg-8.png';
-import Registro9 from '../../../assets/img/Registros/Desenvolvimento/Reg-9.png';
 import Registro10 from '../../../assets/img/Registros/Desenvolvimento/Reg-10.png';
 import Registro11 from '../../../assets/img/Registros/Desenvolvimento/Reg-11.png';
 import Registro12 from '../../../assets/img/Registros/Desenvolvimento/Reg-12.png';
@@ -17,11 +10,17 @@ import Registro15 from '../../../assets/img/Registros/Desenvolvimento/Reg-15.png
 import Registro16 from '../../../assets/img/Registros/Desenvolvimento/Reg-16.png';
 import Registro17 from '../../../assets/img/Registros/Desenvolvimento/Reg-17.png';
 import Registro18 from '../../../assets/img/Registros/Desenvolvimento/Reg-18.png';
+import Registro2 from '../../../assets/img/Registros/Desenvolvimento/Reg-2.png';
+import Registro3 from '../../../assets/img/Registros/Desenvolvimento/Reg-3.png';
+import Registro4 from '../../../assets/img/Registros/Desenvolvimento/Reg-4.png';
+import Registro5 from '../../../assets/img/Registros/Desenvolvimento/Reg-5.png';
+import Registro6 from '../../../assets/img/Registros/Desenvolvimento/Reg-6.png';
+import Registro7 from '../../../assets/img/Registros/Desenvolvimento/Reg-7.png';
+import Registro8 from '../../../assets/img/Registros/Desenvolvimento/Reg-8.png';
+import Registro9 from '../../../assets/img/Registros/Desenvolvimento/Reg-9.png';
+import './RegistrationCarouselWebDevelopment.style.css';
 
-import './RegistrationCarousel.style.css'; // Arquivo CSS onde as classes estão definidas
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-
-export function RegistrationCarousel() {
+export function RegistrationCarouselWebDevelopment() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [screenWidth, setScreenWidth] = useState('33.33%');
     const [translateValue, setTranslateValue] = useState(100 / 3);

@@ -35,7 +35,7 @@ import { IoLogoJavascript } from 'react-icons/io5';
 import { GrMysql } from 'react-icons/gr';
 import { SiPhp } from 'react-icons/si';
 import { SiCsharp } from 'react-icons/si';
-import { RegistrationCarousel } from '../../components/Carousels/RegistrationCarousel';
+import { RegistrationCarouselWebDevelopment } from '../../components/Carousels/RegistrationCarouselWebDevelopment';
 
 export function FrontEnd() {
     useEffect(() => {
@@ -191,12 +191,6 @@ export function FrontEnd() {
                         nomeBotao="> Acessar <"
                     />
 
-                    {/* <CardProjetos
-                imagemProjetos={Dev5}
-                nomeProjetos='Meu GitHub'
-                linkProjetos='https://github.com/LeticiaSFranca'
-                nomeBotao='> Acessar <' /> */}
-
                     <CardProjetos
                         imagemProjetos={Dev6}
                         nomeProjetos="Gerenciamento de Estoque"
@@ -250,7 +244,7 @@ export function FrontEnd() {
 
             <section id="secao">
                 <h2 className="titulo-colorido">Alguns Registros 📸💖</h2>
-                <RegistrationCarousel />
+                <RegistrationCarouselWebDevelopment />
             </section>
         </>
     );
