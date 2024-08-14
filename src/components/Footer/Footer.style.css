@@ -1,4 +1,4 @@
-footer{
+footer {
     width: 100%;
     height: 100%;
     display: flex;
@@ -22,7 +22,7 @@ footer{
     font-size: 25px;
 }
 
-#div-como-encontrar a{
+#div-como-encontrar a {
     color: var(--cor-branca);
 }
 
@@ -31,7 +31,7 @@ footer{
     transition: ease-in-out 0.2s;
 }
 
-@media (max-width: 1080px){
+@media (max-width: 1080px) {
     #div-como-encontrar {
         width: 90%;
         margin-top: 1vh;

@@ -47,13 +47,13 @@ import Registro16 from '../../assets/img/Registros/Desenvolvimento/Reg-16.png';
 import Registro17 from '../../assets/img/Registros/Desenvolvimento/Reg-17.png';
 import Registro18 from '../../assets/img/Registros/Desenvolvimento/Reg-18.png';
 
-import { FaHtml5 } from "react-icons/fa";
-import { IoLogoCss3 } from "react-icons/io";
-import { RiReactjsFill } from "react-icons/ri";
-import { IoLogoJavascript } from "react-icons/io5";
-import { GrMysql } from "react-icons/gr";
-import { SiPhp } from "react-icons/si";
-import { SiCsharp } from "react-icons/si";
+import { FaHtml5 } from 'react-icons/fa';
+import { IoLogoCss3 } from 'react-icons/io';
+import { RiReactjsFill } from 'react-icons/ri';
+import { IoLogoJavascript } from 'react-icons/io5';
+import { GrMysql } from 'react-icons/gr';
+import { SiPhp } from 'react-icons/si';
+import { SiCsharp } from 'react-icons/si';
 
 export function FrontEnd() {
     useEffect(() => {
@@ -62,20 +62,22 @@ export function FrontEnd() {
 
     return (
         <>
-            <section id='primeira-apresentacao'>
-                <img src={imgApresentacao} alt="img-apresentação" id='img-apresentacao' />
-                <div id='texto-abertura'>
-                    <h3 id='titulo-apresentacao'>Desenvolvimento Web e Design</h3>
-                    <p>Oie! Sou designer web e desenvolvedora web apaixonada por criar experiências
-                        digitais cativantes💖. Meu trabalho é impulsionado pela emoção positiva que ele
-                        pode gerar, tanto para os usuários quanto para a marca💖. Com habilidades técnicas
-                        sólidas e uma mente criativa, estou sempre em busca de desafios que me permitam
-                        inovar e superar expectativas🤩. Adoro colaborar em projetos que valorizem
-                        a excelência e o impacto positivo💖.</p>
+            <section id="primeira-apresentacao">
+                <img src={imgApresentacao} alt="img-apresentação" id="img-apresentacao" />
+                <div id="texto-abertura">
+                    <h3 id="titulo-apresentacao">Desenvolvimento Web e Design</h3>
+                    <p>
+                        Oie! Sou designer web e desenvolvedora web apaixonada por criar experiências
+                        digitais cativantes💖. Meu trabalho é impulsionado pela emoção positiva que
+                        ele pode gerar, tanto para os usuários quanto para a marca💖. Com
+                        habilidades técnicas sólidas e uma mente criativa, estou sempre em busca de
+                        desafios que me permitam inovar e superar expectativas🤩. Adoro colaborar em
+                        projetos que valorizem a excelência e o impacto positivo💖.
+                    </p>
                 </div>
             </section>
 
-            <section id='icones-principais'>
+            <section id="icones-principais">
                 <FaHtml5 />
                 <IoLogoCss3 />
                 <RiReactjsFill />
@@ -85,183 +87,206 @@ export function FrontEnd() {
                 <SiCsharp />
             </section>
 
-            <section id='segunda-apresentacao'>
-                <h2 className='titulo-colorido'>Projetos de Design e Personalizados 🎨</h2>
-                
-                <div className='todos-os-cards'>
-                <CardProjetos
-                imagemProjetos={Design1}
-                nomeProjetos='Calendários'
-                linkProjetos=''
-                nomeBotao='' />
-                
-                <CardProjetos
-                imagemProjetos={Design2}
-                nomeProjetos='Capas de Cadernos'
-                linkProjetos=''
-                nomeBotao='' />
+            <section id="segunda-apresentacao">
+                <h2 className="titulo-colorido">Projetos de Design e Personalizados 🎨</h2>
 
-                <CardProjetos
-                imagemProjetos={Design3}
-                nomeProjetos='Criação de Vídeos'
-                linkProjetos='https://www.youtube.com/@leticia.s.franca'
-                nomeBotao='> Acessar <' />
+                <div className="todos-os-cards">
+                    <CardProjetos
+                        imagemProjetos={Design1}
+                        nomeProjetos="Calendários"
+                        linkProjetos=""
+                        nomeBotao=""
+                    />
 
-                <CardProjetos
-                imagemProjetos={Design4}
-                nomeProjetos='Fotografias'
-                linkProjetos=''
-                nomeBotao='' />
+                    <CardProjetos
+                        imagemProjetos={Design2}
+                        nomeProjetos="Capas de Cadernos"
+                        linkProjetos=""
+                        nomeBotao=""
+                    />
 
-                <CardProjetos
-                imagemProjetos={Design5}
-                nomeProjetos='Criação de Imagens'
-                linkProjetos=''
-                nomeBotao='' />
+                    <CardProjetos
+                        imagemProjetos={Design3}
+                        nomeProjetos="Criação de Vídeos"
+                        linkProjetos="https://www.youtube.com/@leticia.s.franca"
+                        nomeBotao="> Acessar <"
+                    />
 
-                <CardProjetos
-                imagemProjetos={Design6}
-                nomeProjetos='Adesivos'
-                linkProjetos=''
-                nomeBotao='' />
+                    <CardProjetos
+                        imagemProjetos={Design4}
+                        nomeProjetos="Fotografias"
+                        linkProjetos=""
+                        nomeBotao=""
+                    />
 
-                <CardProjetos
-                imagemProjetos={Design7}
-                nomeProjetos='Cartões de Visita'
-                linkProjetos=''
-                nomeBotao='' />
+                    <CardProjetos
+                        imagemProjetos={Design5}
+                        nomeProjetos="Criação de Imagens"
+                        linkProjetos=""
+                        nomeBotao=""
+                    />
 
-                <CardProjetos
-                imagemProjetos={Design8}
-                nomeProjetos='Crachás'
-                linkProjetos=''
-                nomeBotao='' />
+                    <CardProjetos
+                        imagemProjetos={Design6}
+                        nomeProjetos="Adesivos"
+                        linkProjetos=""
+                        nomeBotao=""
+                    />
 
-                <CardProjetos
-                imagemProjetos={Design9}
-                nomeProjetos='Logomarcas'
-                linkProjetos=''
-                nomeBotao='' />
+                    <CardProjetos
+                        imagemProjetos={Design7}
+                        nomeProjetos="Cartões de Visita"
+                        linkProjetos=""
+                        nomeBotao=""
+                    />
 
-                <CardProjetos
-                imagemProjetos={Design10}
-                nomeProjetos='Personalizados'
-                linkProjetos=''
-                nomeBotao='' />
+                    <CardProjetos
+                        imagemProjetos={Design8}
+                        nomeProjetos="Crachás"
+                        linkProjetos=""
+                        nomeBotao=""
+                    />
 
-                <CardProjetos
-                imagemProjetos={Design11}
-                nomeProjetos='Social Mídia'
-                linkProjetos=''
-                nomeBotao='' />
+                    <CardProjetos
+                        imagemProjetos={Design9}
+                        nomeProjetos="Logomarcas"
+                        linkProjetos=""
+                        nomeBotao=""
+                    />
 
-                <CardProjetos
-                imagemProjetos={Design12}
-                nomeProjetos='Criação de Sites'
-                linkProjetos=''
-                nomeBotao='' />
+                    <CardProjetos
+                        imagemProjetos={Design10}
+                        nomeProjetos="Personalizados"
+                        linkProjetos=""
+                        nomeBotao=""
+                    />
+
+                    <CardProjetos
+                        imagemProjetos={Design11}
+                        nomeProjetos="Social Mídia"
+                        linkProjetos=""
+                        nomeBotao=""
+                    />
+
+                    <CardProjetos
+                        imagemProjetos={Design12}
+                        nomeProjetos="Criação de Sites"
+                        linkProjetos=""
+                        nomeBotao=""
+                    />
                 </div>
             </section>
 
-            <section id='terceira-apresentacao'>
-                <h2 className='titulo-colorido'>Projetos de Programação Web 👩🏼‍💻</h2>
-                
-                <div className='todos-os-cards'>
-                <CardProjetos
-                imagemProjetos={Dev1}
-                nomeProjetos='CraftAPI'
-                linkProjetos='https://craft-api.vercel.app'
-                nomeBotao='> Acessar <' />
-                
-                <CardProjetos
-                imagemProjetos={Dev2}
-                nomeProjetos='To-Do List'
-                linkProjetos='https://to-do-list-framework.vercel.app/'
-                nomeBotao='> Acessar <' />
+            <section id="terceira-apresentacao">
+                <h2 className="titulo-colorido">Projetos de Programação Web 👩🏼‍💻</h2>
 
-                <CardProjetos
-                imagemProjetos={Dev3}
-                nomeProjetos='WE Equipamentos'
-                linkProjetos='https://weequipamentos.com.br'
-                nomeBotao='> Acessar <' />
+                <div className="todos-os-cards">
+                    <CardProjetos
+                        imagemProjetos={Dev1}
+                        nomeProjetos="CraftAPI"
+                        linkProjetos="https://craft-api.vercel.app"
+                        nomeBotao="> Acessar <"
+                    />
 
-                <CardProjetos
-                imagemProjetos={Dev4}
-                nomeProjetos='QuickFood'
-                linkProjetos='https://qftech.com.br'
-                nomeBotao='> Acessar <' />
+                    <CardProjetos
+                        imagemProjetos={Dev2}
+                        nomeProjetos="To-Do List"
+                        linkProjetos="https://to-do-list-framework.vercel.app/"
+                        nomeBotao="> Acessar <"
+                    />
 
-                {/* <CardProjetos
+                    <CardProjetos
+                        imagemProjetos={Dev3}
+                        nomeProjetos="WE Equipamentos"
+                        linkProjetos="https://weequipamentos.com.br"
+                        nomeBotao="> Acessar <"
+                    />
+
+                    <CardProjetos
+                        imagemProjetos={Dev4}
+                        nomeProjetos="QuickFood"
+                        linkProjetos="https://qftech.com.br"
+                        nomeBotao="> Acessar <"
+                    />
+
+                    {/* <CardProjetos
                 imagemProjetos={Dev5}
                 nomeProjetos='Meu GitHub'
                 linkProjetos='https://github.com/LeticiaSFranca'
                 nomeBotao='> Acessar <' /> */}
 
-                <CardProjetos
-                imagemProjetos={Dev6}
-                nomeProjetos='Gerenciamento de Estoque'
-                linkProjetos='https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/projeto-estoque-js'
-                nomeBotao='> GitHub <' />
+                    <CardProjetos
+                        imagemProjetos={Dev6}
+                        nomeProjetos="Gerenciamento de Estoque"
+                        linkProjetos="https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/projeto-estoque-js"
+                        nomeBotao="> GitHub <"
+                    />
 
-                <CardProjetos
-                imagemProjetos={Dev7}
-                nomeProjetos='E-Commerce Estático'
-                linkProjetos='https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/E-Commerce-main'
-                nomeBotao='> GitHub <' />
+                    <CardProjetos
+                        imagemProjetos={Dev7}
+                        nomeProjetos="E-Commerce Estático"
+                        linkProjetos="https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/E-Commerce-main"
+                        nomeBotao="> GitHub <"
+                    />
 
-                <CardProjetos
-                imagemProjetos={Dev8}
-                nomeProjetos='Landing Page - Super Mario Bross'
-                linkProjetos='https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/site-mario-bross'
-                nomeBotao='> GitHub <' />
+                    <CardProjetos
+                        imagemProjetos={Dev8}
+                        nomeProjetos="Landing Page - Super Mario Bross"
+                        linkProjetos="https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/site-mario-bross"
+                        nomeBotao="> GitHub <"
+                    />
 
-                <CardProjetos
-                imagemProjetos={Dev9}
-                nomeProjetos='Meu Primeiro Site em HTML & CSS'
-                linkProjetos='https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/Meu-Primeiro-Site'
-                nomeBotao='> GitHub <' />
+                    <CardProjetos
+                        imagemProjetos={Dev9}
+                        nomeProjetos="Meu Primeiro Site em HTML & CSS"
+                        linkProjetos="https://github.com/LeticiaSFranca/Projetos-Html-Css/tree/main/Meu-Primeiro-Site"
+                        nomeBotao="> GitHub <"
+                    />
 
-                <CardProjetos
-                imagemProjetos={Dev10}
-                nomeProjetos='Projeto WindWell'
-                linkProjetos='https://projetomindwell.vercel.app/'
-                nomeBotao='> Acessar <' />
+                    <CardProjetos
+                        imagemProjetos={Dev10}
+                        nomeProjetos="Projeto WindWell"
+                        linkProjetos="https://projetomindwell.vercel.app/"
+                        nomeBotao="> Acessar <"
+                    />
 
-                <CardProjetos
-                imagemProjetos={Dev11}
-                nomeProjetos='Plumas Preciosas'
-                linkProjetos='https://plumaspreciosas.vercel.app/'
-                nomeBotao='> Acessar <' />
+                    <CardProjetos
+                        imagemProjetos={Dev11}
+                        nomeProjetos="Plumas Preciosas"
+                        linkProjetos="https://plumaspreciosas.vercel.app/"
+                        nomeBotao="> Acessar <"
+                    />
 
-                <CardProjetos
-                imagemProjetos={Dev12}
-                nomeProjetos='Angells Vet'
-                linkProjetos='https://angellsvet.vercel.app/'
-                nomeBotao='> Acessar <' />
+                    <CardProjetos
+                        imagemProjetos={Dev12}
+                        nomeProjetos="Angells Vet"
+                        linkProjetos="https://angellsvet.vercel.app/"
+                        nomeBotao="> Acessar <"
+                    />
                 </div>
             </section>
 
-            <section id='quarta-apresentacao'>
-                <h2 className='titulo-colorido'>Alguns Registros 📸💖</h2>
-                <div className='todos-os-registros'>
-                    <img src={Registro1} alt="Registro-1" className='img-registros'/>
-                    <img src={Registro2} alt="Registro-2" className='img-registros'/>
-                    <img src={Registro3} alt="Registro-3" className='img-registros'/>
-                    <img src={Registro4} alt="Registro-4" className='img-registros'/>
-                    <img src={Registro5} alt="Registro-5" className='img-registros'/>
-                    <img src={Registro6} alt="Registro-6" className='img-registros'/>
-                    <img src={Registro7} alt="Registro-7" className='img-registros'/>
-                    <img src={Registro8} alt="Registro-8" className='img-registros'/>
-                    <img src={Registro9} alt="Registro-9" className='img-registros'/>
-                    <img src={Registro10} alt="Registro-10" className='img-registros'/>
-                    <img src={Registro11} alt="Registro-11" className='img-registros'/>
-                    <img src={Registro12} alt="Registro-12" className='img-registros'/>
-                    <img src={Registro13} alt="Registro13" className='img-registros'/>
-                    <img src={Registro14} alt="Registro-14" className='img-registros'/>
-                    <img src={Registro15} alt="Registro-15" className='img-registros'/>
-                    <img src={Registro16} alt="Registro-16" className='img-registros'/>
-                    <img src={Registro17} alt="Registro-17" className='img-registros'/>
-                    <img src={Registro18} alt="Registro-18" className='img-registros'/>
+            <section id="quarta-apresentacao">
+                <h2 className="titulo-colorido">Alguns Registros 📸💖</h2>
+                <div className="todos-os-registros">
+                    <img src={Registro1} alt="Registro-1" className="img-registros" />
+                    <img src={Registro2} alt="Registro-2" className="img-registros" />
+                    <img src={Registro3} alt="Registro-3" className="img-registros" />
+                    <img src={Registro4} alt="Registro-4" className="img-registros" />
+                    <img src={Registro5} alt="Registro-5" className="img-registros" />
+                    <img src={Registro6} alt="Registro-6" className="img-registros" />
+                    <img src={Registro7} alt="Registro-7" className="img-registros" />
+                    <img src={Registro8} alt="Registro-8" className="img-registros" />
+                    <img src={Registro9} alt="Registro-9" className="img-registros" />
+                    <img src={Registro10} alt="Registro-10" className="img-registros" />
+                    <img src={Registro11} alt="Registro-11" className="img-registros" />
+                    <img src={Registro12} alt="Registro-12" className="img-registros" />
+                    <img src={Registro13} alt="Registro13" className="img-registros" />
+                    <img src={Registro14} alt="Registro-14" className="img-registros" />
+                    <img src={Registro15} alt="Registro-15" className="img-registros" />
+                    <img src={Registro16} alt="Registro-16" className="img-registros" />
+                    <img src={Registro17} alt="Registro-17" className="img-registros" />
+                    <img src={Registro18} alt="Registro-18" className="img-registros" />
                 </div>
             </section>
         </>

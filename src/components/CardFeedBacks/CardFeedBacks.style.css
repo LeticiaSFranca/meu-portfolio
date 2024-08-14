@@ -42,7 +42,7 @@
         color: var(--cor-primaria);
         text-decoration: none;
 
-        &:hover{
+        &:hover {
             opacity: 70%;
             cursor: pointer;
         }

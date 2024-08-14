@@ -1,18 +1,18 @@
-:root{
-    --cor-primaria: #BA704F;
-    --cor-secundaria: #6C3428;
+:root {
+    --cor-primaria: #ba704f;
+    --cor-secundaria: #6c3428;
     --cor-branca: #fff;
     --cor-preto: #000;
-    --separar-paginas: #EED6C4;
-    --vermelho-escuro: #BF0404;
+    --separar-paginas: #eed6c4;
+    --vermelho-escuro: #bf0404;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-style: normal;
 
@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-track {
     background: transparent;
 }
-  
+
 body::-webkit-scrollbar-thumb {
     background: var(--cor-primaria);
     width: 10px;
@@ -93,7 +93,7 @@ body::-webkit-scrollbar-thumb {
     padding-top: 5vh;
 }
 
-.img-registros{
+.img-registros {
     width: 15vw;
     margin-top: 5px;
 }
@@ -114,7 +114,7 @@ body::-webkit-scrollbar-thumb {
 
 /* Estilização de Cards */
 
-.todos-os-cards{
+.todos-os-cards {
     width: 100%;
     display: flex;
     align-items: center;
@@ -135,7 +135,7 @@ body::-webkit-scrollbar-thumb {
 
 /* Responsividades */
 
-@media (max-width: 1080px){
+@media (max-width: 1080px) {
     #segunda-apresentacao {
         margin: 5vh;
         padding: 2vh 0;
@@ -145,10 +145,10 @@ body::-webkit-scrollbar-thumb {
         width: 20vw;
     }
 
-    #terceira-apresentacao { 
+    #terceira-apresentacao {
         h2 {
-            font-size: 30px; 
-        }  
+            font-size: 30px;
+        }
 
         .img-polaroids {
             margin-top: 3vh;
@@ -156,10 +156,10 @@ body::-webkit-scrollbar-thumb {
         }
     }
 
-    #quarta-apresentacao { 
+    #quarta-apresentacao {
         h2 {
             margin-top: -10vh;
-            font-size: 30px; 
+            font-size: 30px;
         }
     }
 

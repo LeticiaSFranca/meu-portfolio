@@ -41,7 +41,7 @@
     transition: 0.5s ease-in-out;
 }
 
-@media (max-width: 1080px){
+@media (max-width: 1080px) {
     #page-404 {
         display: flex;
         align-items: center;
@@ -60,7 +60,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    
+
         margin-left: 0;
         margin-top: 6vh;
     }
