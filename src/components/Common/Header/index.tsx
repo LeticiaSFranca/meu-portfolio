@@ -15,9 +15,7 @@ export function Header() {
     return (
         <header>
             <Link to="/" className="logo">
-                <Link to="/" onClick={showNavbar}>
-                    <img src={logo} alt="Logo" />
-                </Link>
+                <img src={logo} alt="Logo" />
             </Link>
             <nav ref={navRef}>
                 <Link to="/desenvolvimento-web" onClick={showNavbar}>
