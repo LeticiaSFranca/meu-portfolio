@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { GrAppsRounded } from 'react-icons/gr';
 import './Header.style.css';
-import logo from '../../assets/icons/logo-principal.png';
+import logo from '../../../assets/icons/logo-principal.png';
 import { Link } from 'react-router-dom';
 
 export function Header() {

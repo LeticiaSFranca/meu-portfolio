@@ -2,7 +2,7 @@ import './MedicinaVeterinaria.style.css';
 
 import imgApresentacao from '../../assets/img/imagem-apresentação-2.png';
 import Imagem from '../../assets/img/em-andamento.png';
-import CardProjetos from '../../components/CardProjetos';
+import CardProjetos from '../../components/Cards/CardProjetos';
 
 import { GiCow } from 'react-icons/gi';
 import { FaHorse } from 'react-icons/fa';
