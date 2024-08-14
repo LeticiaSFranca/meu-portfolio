@@ -242,7 +242,7 @@ export function FrontEnd() {
                 </div>
             </section>
 
-            <section id="secao">
+            <section id="secao-registros">
                 <h2 className="titulo-colorido">Alguns Registros 📸💖</h2>
                 <RegistrationCarouselWebDevelopment />
             </section>

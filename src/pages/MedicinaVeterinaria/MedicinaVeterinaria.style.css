@@ -1,0 +1,8 @@
+#secao-registros {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-registros{
+    margin: 5vh 0;
+}
