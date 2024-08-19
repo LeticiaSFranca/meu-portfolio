@@ -13,7 +13,7 @@
 }
 
 .card img {
-    width: 20vw;
+    width: 90%;
     border-radius: 10px;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -64,4 +64,14 @@
 
 .card:hover img {
     scale: 0;
+}
+
+@media (max-width: 1080px) {
+    .card {
+        border-radius: 5px;
+    }
+
+    .card img {
+        border-radius: 5px;
+    }
 }
