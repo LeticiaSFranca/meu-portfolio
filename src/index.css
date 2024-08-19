@@ -91,4 +91,20 @@ body::-webkit-scrollbar-thumb {
     .card img {
         width: 25vw;
     }
+
+    .titulo-colorido {
+        text-align: center;
+        color: var(--cor-primaria);
+        font-weight: bolder;
+        font-size: 25px;
+        margin: 0 10vw;
+    }
+    
+    .titulo-branco {
+        text-align: center;
+        color: var(--cor-branca);
+        font-weight: bolder;
+        font-size: 25px;
+        margin: 0 10vw;
+    }
 }

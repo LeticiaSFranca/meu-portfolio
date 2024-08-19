@@ -65,9 +65,11 @@
         width: 20vw;
     }
 
-    #terceira-apresentacao-medvet {
-        h2 {
-            font-size: 30px;
-        }
+    #secao-registros-medvet{
+        margin-top: 1vh;
+    }
+
+    #secao-registros-medvet h2 {
+        margin: 5vh;
     }
 }

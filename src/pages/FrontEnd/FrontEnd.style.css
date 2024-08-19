@@ -46,6 +46,7 @@
 
 /* === Responsividade == */
 @media (max-width: 1080px) {
+
     #primeira-apresentacao-frontend {
         width: 100%;
         display: flex;
@@ -62,11 +63,5 @@
 
     #segunda-apresentacao-frontend div img {
         width: 20vw;
-    }
-
-    #terceira-apresentacao-frontend {
-        h2 {
-            font-size: 30px;
-        }
     }
 }
