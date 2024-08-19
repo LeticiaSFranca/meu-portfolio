@@ -22,7 +22,7 @@ export function MedicinaVeterinaria() {
 
     return (
         <>
-            <section id="primeira-apresentacao">
+            <section id="primeira-apresentacao-medvet">
                 <img src={imgApresentacao} alt="img-apresentação" id="img-apresentacao" />
                 <div id="texto-abertura">
                     <h3 id="titulo-apresentacao">Medicina Veterinária</h3>
@@ -46,7 +46,7 @@ export function MedicinaVeterinaria() {
                 <GiChicken />
             </section>
 
-            <section id="segunda-apresentacao">
+            <section id="segunda-apresentacao-medvet">
                 <h2 className="titulo-colorido">Cursos e Congressos 📚</h2>
 
                 <div className="todos-os-cards">
@@ -87,7 +87,7 @@ export function MedicinaVeterinaria() {
                 </div>
             </section>
 
-            <section id="terceira-apresentacao">
+            <section id="terceira-apresentacao-medvet">
                 <h2 className="titulo-colorido">Meus Projetos 🛠️</h2>
 
                 <div className="todos-os-cards">
@@ -128,7 +128,7 @@ export function MedicinaVeterinaria() {
                 </div>
             </section>
 
-            <section id="secao-registros">
+            <section id="secao-registros-medvet">
                 <h2 className="titulo-colorido titulo-registros">Alguns Registros 📸💖</h2>
                 <RegistrationCarouselVeterinaryMedicine />
             </section>

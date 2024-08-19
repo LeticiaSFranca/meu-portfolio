@@ -1,8 +1,73 @@
-#secao-registros {
-    display: flex;
-    flex-direction: column;
-}
-
 .titulo-registros{
     margin: 5vh 0;
+}
+
+#secao-registros-medvet {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
+
+#primeira-apresentacao-medvet {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 5vh 0;
+}
+
+#segunda-apresentacao-medvet {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5vh 0;
+}
+
+#terceira-apresentacao-medvet {
+    width: 100%;
+    background-color: var(--separar-paginas);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5vh 0;
+
+    .img-registros {
+        width: 16vw;
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px var(--cor-primaria);
+    }
+}
+
+/* === Responsividade == */
+@media (max-width: 1080px) {
+    #primeira-apresentacao-medvet {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 5vh 0;
+    }
+
+    #segunda-apresentacao-medvet {
+        margin: 5vh;
+        padding: 2vh 0;
+    }
+
+    #segunda-apresentacao-medvet div img {
+        width: 20vw;
+    }
+
+    #terceira-apresentacao-medvet {
+        h2 {
+            font-size: 30px;
+        }
+    }
 }

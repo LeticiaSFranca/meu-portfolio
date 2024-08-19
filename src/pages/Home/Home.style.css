@@ -1,4 +1,4 @@
-#primeira-apresentacao {
+#primeira-apresentacao-home {
     width: 100%;
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@
 }
 
 /* Separações */
-#segunda-apresentacao {
+#segunda-apresentacao-home {
     width: 100%;
     display: flex;
     align-items: center;
@@ -38,12 +38,6 @@
     flex-wrap: wrap;
     background-color: var(--cor-branca);
     margin: 5vh 0;
-}
-
-#h2-curiosidades {
-    color: var(--cor-primaria);
-    font-weight: bolder;
-    font-size: 25px;
 }
 
 .botoes-areas {
@@ -88,13 +82,40 @@
     margin-bottom: 5vh;
 }
 
+/* === Separações === */
+
+#terceira-apresentacao-home {
+    width: 100%;
+    background-color: var(--separar-paginas);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5vh 0;
+
+    .img-registros {
+        width: 16vw;
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px var(--cor-primaria);
+    }
+}
+
+#h2-curiosidades {
+    color: var(--cor-primaria);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
 #texto-sobre-mim {
     padding: 5vh 23vw;
     font-size: 16px;
 }
 
+/* === Separações === */
+
 @media (max-width: 1080px) {
-    #primeira-apresentacao {
+    #primeira-apresentacao-home {
         width: 100%;
         display: flex;
         align-items: center;
@@ -114,7 +135,7 @@
     }
 
     /* Separações */
-    #segunda-apresentacao {
+    #segunda-apresentacao-home {
         width: 100%;
         margin: 1vh 1vw;
         display: flex;
@@ -136,5 +157,9 @@
 
     #texto-sobre-mim {
         padding: 3vh 8vw;
+    }
+
+    #h2-curiosidades {
+        font-size: 20px;
     }
 }

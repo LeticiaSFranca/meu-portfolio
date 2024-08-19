@@ -51,53 +51,6 @@ body::-webkit-scrollbar-thumb {
     font-size: 30px;
 }
 
-#segunda-apresentacao {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 5vh 0;
-}
-
-#terceira-apresentacao {
-    width: 100%;
-    background-color: var(--separar-paginas);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 5vh 0;
-
-    .img-registros {
-        width: 16vw;
-        border-radius: 10px;
-        box-shadow: 3px 3px 8px var(--cor-primaria);
-    }
-}
-
-#quarta-apresentacao {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 5vh;
-    padding-bottom: 5vh;
-}
-
-#quarta-apresentacao h2 {
-    padding-top: 5vh;
-}
-
-.img-registros {
-    width: 15vw;
-    margin-top: 5px;
-}
-
 /* Ícones Importantes */
 #icones-principais {
     width: 100%;
@@ -112,8 +65,7 @@ body::-webkit-scrollbar-thumb {
     color: var(--cor-primaria);
 }
 
-/* Estilização de Cards */
-
+/* == Cards de Projetos === */
 .todos-os-cards {
     width: 100%;
     display: flex;
@@ -123,46 +75,8 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: wrap;
 }
 
-.todos-os-registros {
-    width: 100%;
-    padding: 2vh 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-/* Responsividades */
-
+/* === Responsividade === */
 @media (max-width: 1080px) {
-    #segunda-apresentacao {
-        margin: 5vh;
-        padding: 2vh 0;
-    }
-
-    #segunda-apresentacao div img {
-        width: 20vw;
-    }
-
-    #terceira-apresentacao {
-        h2 {
-            font-size: 30px;
-        }
-
-        .img-polaroids {
-            margin-top: 3vh;
-            width: 50vw;
-        }
-    }
-
-    #quarta-apresentacao {
-        h2 {
-            margin-top: -10vh;
-            font-size: 30px;
-        }
-    }
-
     #icones-principais {
         font-size: 25px;
         margin-top: 2vh;

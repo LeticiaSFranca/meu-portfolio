@@ -1,4 +1,5 @@
 import './FrontEnd.style.css';
+import '../../index.css';
 import imgApresentacao from '../../assets/img/imagem-apresentação.png';
 import CardProjetos from '../../components/Cards/CardProjetos';
 import { useEffect } from 'react';
@@ -44,7 +45,7 @@ export function FrontEnd() {
 
     return (
         <>
-            <section id="primeira-apresentacao">
+            <section id="primeira-apresentacao-frontend">
                 <img src={imgApresentacao} alt="img-apresentação" id="img-apresentacao" />
                 <div id="texto-abertura">
                     <h3 id="titulo-apresentacao">Desenvolvimento Web e Design</h3>
@@ -69,7 +70,7 @@ export function FrontEnd() {
                 <SiCsharp />
             </section>
 
-            <section id="segunda-apresentacao">
+            <section id="segunda-apresentacao-frontend">
                 <h2 className="titulo-colorido">Projetos de Design e Personalizados 🎨</h2>
 
                 <div className="todos-os-cards">
@@ -145,7 +146,7 @@ export function FrontEnd() {
 
                     <CardProjetos
                         imagemProjetos={Design11}
-                        nomeProjetos="Social Mídia"
+                        nomeProjetos="Social Mídia e Criadora de Conteúdo"
                         linkProjetos=""
                         nomeBotao=""
                     />
@@ -159,7 +160,7 @@ export function FrontEnd() {
                 </div>
             </section>
 
-            <section id="terceira-apresentacao">
+            <section id="terceira-apresentacao-frontend">
                 <h2 className="titulo-colorido">Projetos de Programação Web 👩🏼‍💻</h2>
 
                 <div className="todos-os-cards">
@@ -242,7 +243,7 @@ export function FrontEnd() {
                 </div>
             </section>
 
-            <section id="secao-registros">
+            <section id="secao-registros-frontend">
                 <h2 className="titulo-colorido">Alguns Registros 📸💖</h2>
                 <RegistrationCarouselWebDevelopment />
             </section>

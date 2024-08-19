@@ -21,7 +21,7 @@ export function Contato() {
 
     return (
         <>
-            <section id="primeira-apresentacao">
+            <section id="primeira-apresentacao-contato">
                 <img src={imgApresentacao} alt="img-apresentação" id="img-apresentacao" />
                 <div id="texto-abertura">
                     <h3 id="titulo-apresentacao">Entrar em Contato</h3>

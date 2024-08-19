@@ -12,7 +12,7 @@ export function Home() {
 
     return (
         <>
-            <section id="primeira-apresentacao">
+            <section id="primeira-apresentacao-home">
                 <img src={imgApresentacao} alt="img-apresentação" id="img-apresentacao" />
                 <div id="texto-abertura">
                     <h3 id="titulo-apresentacao">Bem-vindo(a)!</h3>
@@ -26,7 +26,7 @@ export function Home() {
                 </div>
             </section>
 
-            <section id="segunda-apresentacao">
+            <section id="segunda-apresentacao-home">
                 <Link to="/desenvolvimento-web" className="botoes-areas">
                     <img
                         src={imgApresentacao}
@@ -66,7 +66,7 @@ export function Home() {
                 </Link>
             </section>
 
-            <section id="terceira-apresentacao">
+            <section id="terceira-apresentacao-home">
                 <h2 id="h2-curiosidades">Curiosidades Sobre Mim</h2>
                 <p id="texto-sobre-mim">
                     🐴🃏 Amo cavalos, amo roça, amo jogar truco e amo ouvir moda de viola, se juntar
