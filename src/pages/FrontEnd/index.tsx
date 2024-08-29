@@ -31,11 +31,10 @@ import Dev12 from '../../assets/img/Projetos/Programação/Dev-12.png';
 
 import { FaHtml5 } from 'react-icons/fa';
 import { IoLogoCss3 } from 'react-icons/io';
+import { FaFigma } from "react-icons/fa";
+import { SiCanva } from "react-icons/si";
 import { RiReactjsFill } from 'react-icons/ri';
 import { IoLogoJavascript } from 'react-icons/io5';
-import { GrMysql } from 'react-icons/gr';
-import { SiPhp } from 'react-icons/si';
-import { SiCsharp } from 'react-icons/si';
 import { RegistrationCarouselWebDevelopment } from '../../components/Carousels/RegistrationCarouselWebDevelopment';
 
 export function FrontEnd() {
@@ -63,11 +62,10 @@ export function FrontEnd() {
             <section id="icones-principais">
                 <FaHtml5 />
                 <IoLogoCss3 />
+                <FaFigma />
+                <SiCanva />
                 <RiReactjsFill />
                 <IoLogoJavascript />
-                <GrMysql />
-                <SiPhp />
-                <SiCsharp />
             </section>
 
             <section id="segunda-apresentacao-frontend">
