@@ -28,6 +28,10 @@
     padding: 5vh 0;
 }
 
+#segunda-apresentacao-medvet img {
+    width: 13vw;
+}
+
 #terceira-apresentacao-medvet {
     width: 100%;
     background-color: var(--separar-paginas);
@@ -43,6 +47,10 @@
         border-radius: 10px;
         box-shadow: 3px 3px 8px var(--cor-primaria);
     }
+}
+
+#terceira-apresentacao-medvet img {
+    width: 13vw;
 }
 
 /* === Responsividade == */
