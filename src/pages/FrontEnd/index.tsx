@@ -1,6 +1,6 @@
 import './FrontEnd.style.css';
 import '../../index.css';
-import imgApresentacao from '../../assets/img/imagem-apresentação.png';
+import imgApresentacao from '../../assets/img/imagem-apresentação-1.png';
 import CardProjetos from '../../components/Cards/CardProjetos';
 import { useEffect } from 'react';
 

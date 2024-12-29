@@ -1,6 +1,7 @@
 import './Home.style.css';
 import { Link } from 'react-router-dom';
-import imgApresentacao from '../../assets/img/imagem-apresentação.png';
+import imgInicio from '../../assets/img/imagem-início.png';
+import imgApresentacao from '../../assets/img/imagem-apresentação-1.png';
 import imgApresentacao2 from '../../assets/img/imagem-apresentação-2.png';
 import imgApresentacao3 from '../../assets/img/imagem-apresentação-3.png';
 import { useEffect } from 'react';
@@ -13,7 +14,7 @@ export function Home() {
     return (
         <>
             <section id="primeira-apresentacao-home">
-                <img src={imgApresentacao} alt="img-apresentação" id="img-apresentacao" />
+                <img src={imgInicio} alt="img-apresentação" id="img-apresentacao" />
                 <div id="texto-abertura">
                     <h3 id="titulo-apresentacao">Bem-vindo(a)!</h3>
                     <p>
